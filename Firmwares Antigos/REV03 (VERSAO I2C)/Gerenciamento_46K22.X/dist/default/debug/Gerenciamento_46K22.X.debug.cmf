@@ -1,0 +1,1982 @@
+%CMF
+# %PSECTS Section
+# For each object file, details of its psects are enumerated here.
+# The begining of the section is indicated by %PSECTS.  The first
+# line indicates the name of the first object file, e.g.
+#    $foo.obj
+# Each line that follows describes a psect in that object file, until
+# the next object file.  The lines that describe a psect have the
+# format:
+#    <psect name> <class name> <space> <link address> <load addresses> <length> <delta>
+# All addresses and the length are given in unqualified hexadecimal
+# in delta units.  Any other numeric values are decimal.
+%PSECTS
+$C:\Users\Rodrigo\AppData\Local\Temp\s464.obj
+end_init CODE 0 5D8 5D8 4 1
+reset_vec CODE 0 0 0 6 1
+idloc IDLOC 0 200000 200000 8 1
+config CONFIG 0 300000 300000 E 1
+$dist/default/debug\Gerenciamento_46K22.X.debug.obj
+intcodelo CODE 0 18 18 5C0 1
+intcode CODE 0 8 8 10 1
+mediumconst MEDIUMCONST 0 F49E F49E B62 1
+text54 CODE 0 3FAA 3FAA 34 1
+text53 CODE 0 34BC 34BC 110 1
+text52 CODE 0 3B10 3B10 9C 1
+text51 CODE 0 403C 403C 2C 1
+text50 CODE 0 417E 417E 1A 1
+text49 CODE 0 41B0 41B0 16 1
+text48 CODE 0 40BC 40BC 28 1
+text47 CODE 0 3C3C 3C3C 78 1
+text46 CODE 0 4010 4010 2C 1
+text45 CODE 0 4164 4164 1A 1
+text44 CODE 0 414A 414A 1A 1
+text43 CODE 0 3D24 3D24 64 1
+text42 CODE 0 4092 4092 2A 1
+text41 CODE 0 38C2 38C2 E2 1
+text40 CODE 0 3F40 3F40 36 1
+text39 CODE 0 2E10 2E10 17E 1
+text38 CODE 0 3DE8 3DE8 60 1
+text37 CODE 0 3CB4 3CB4 70 1
+text36 CODE 0 3ED0 3ED0 3A 1
+text35 CODE 0 3F0A 3F0A 36 1
+text34 CODE 0 2598 2598 2F4 1
+text33 CODE 0 2F8E 2F8E 174 1
+text32 CODE 0 3A5C 3A5C B4 1
+text31 CODE 0 423A 423A E 1
+text30 CODE 0 410A 410A 26 1
+text29 CODE 0 2C6A 2C6A 1A6 1
+text28 CODE 0 2A8C 2A8C 1DE 1
+text27 CODE 0 3E94 3E94 3C 1
+intcode_body CODE 0 5DC 5DC 146E 1
+text25 CODE 0 37CA 37CA F8 1
+text24 CODE 0 3E48 3E48 4C 1
+text23 CODE 0 288C 288C 200 1
+text22 CODE 0 339E 339E 11E 1
+text21 CODE 0 39A4 39A4 B8 1
+text20 CODE 0 3262 3262 13C 1
+text19 CODE 0 3FDE 3FDE 32 1
+text18 CODE 0 36CC 36CC FE 1
+text17 CODE 0 1A4A 1A4A 702 1
+text16 CODE 0 4068 4068 2A 1
+text15 CODE 0 4198 4198 18 1
+text14 CODE 0 4248 4248 C 1
+text12 CODE 0 3F76 3F76 34 1
+text11 CODE 0 4254 4254 8 1
+text10 CODE 0 41DA 41DA 12 1
+text9 CODE 0 41C6 41C6 14 1
+text8 CODE 0 421C 421C 10 1
+text7 CODE 0 4130 4130 1A 1
+text6 CODE 0 420C 420C 10 1
+text5 CODE 0 41FC 41FC 10 1
+text4 CODE 0 3D88 3D88 60 1
+text3 CODE 0 41EC 41EC 10 1
+text2 CODE 0 422C 422C E 1
+text1 CODE 0 40E4 40E4 26 1
+text0 CODE 0 3102 3102 160 1
+cstackCOMRAM COMRAM 1 1 1 5C 1
+cstackBANK0 BANK0 1 60 60 6B 1
+cstackBANK1 BANK1 1 1CE 1CE 18 1
+dataBIGRAM BIGRAM 1 300 300 44C 1
+dataBANK2 BANK2 1 200 200 100 1
+dataBANK1 BANK1 1 1E6 1E6 4 1
+bssBANK1 BANK1 1 100 100 CE 1
+bssBANK0 BANK0 1 CB CB 23 1
+bssCOMRAM COMRAM 1 5D 5D 3 1
+cinit CODE 0 3BAC 3BAC 90 1
+idataBANK2 CODE 0 35CC 35CC 100 1
+idataBANK1 CODE 0 425C 425C 4 1
+idataBIGRAM CODE 0 214C 214C 44C 1
+# %UNUSED Section
+# This section enumerates the unused ranges of each CLASS. Each entry
+# is described on a single line as follows:
+#    <class name> <range> <delta>
+# Addresses given in the range are in hexadecimal and units of delta.
+%UNUSED
+BANK0 0000EE-0000FF 1
+BANK1 0001EA-0001FF 1
+BANK10 000A00-000AFF 1
+BANK11 000B00-000BFF 1
+BANK12 000C00-000CFF 1
+BANK13 000D00-000DFF 1
+BANK14 000E00-000EFF 1
+BANK15 000F00-000F37 1
+BANK7 00074C-0007FF 1
+BANK8 000800-0008FF 1
+BANK9 000900-0009FF 1
+BIGRAM 0000EE-0000FF 1
+BIGRAM 0001EA-0001FF 1
+BIGRAM 00074C-000F37 1
+CODE 000006-000007 1
+CODE 004260-00F49D 1
+CONST 000006-000007 1
+CONST 004260-00F49D 1
+EEDATA F00000-F003FF 1
+MEDIUMCONST 004260-00F49D 1
+RAM 0000EE-0000FF 1
+RAM 0001EA-0001FF 1
+RAM 00074C-000F37 1
+SFR 000F38-000FFC 1
+SMALLCONST 004260-00F49D 1
+STACK 000A00-000F37 1
+# %LINETAB Section
+# This section enumerates the file/line to address mappings.
+# The beginning of the section is indicated by %LINETAB.
+# The first line indicates the name of the first object file, e.g.
+#   $foo.obj
+# Each line that follows describes a single mapping until the next
+# object file.  Mappings have the following format:
+#    <file name>:<line number> <address> <psect name> <class name>
+# The address is absolute and given given in unqualified hex 
+# in delta units of the psect. All mappings within an object file
+# are in ascending order of addresses.
+# All other numeric values are in decimal.
+%LINETAB
+$dist/default/debug\Gerenciamento_46K22.X.debug.obj
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\double.c":87 8 intcode CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":595 8 intcode CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\ADC_K22.c":54 18 intcodelo CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":984 18 intcodelo CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":986 5C intcodelo CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":987 62 intcodelo CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":988 64 intcodelo CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":989 66 intcodelo CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":991 68 intcodelo CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":992 74 intcodelo CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":993 80 intcodelo CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":994 98 intcodelo CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":995 B0 intcodelo CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1002 B4 intcodelo CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1004 B8 intcodelo CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1005 BA intcodelo CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1006 BE intcodelo CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1007 CA intcodelo CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1008 CE intcodelo CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1009 D0 intcodelo CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1011 D8 intcodelo CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1012 DA intcodelo CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1013 DC intcodelo CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1014 DE intcodelo CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1016 DE intcodelo CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1019 E0 intcodelo CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1020 E4 intcodelo CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1023 F8 intcodelo CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1024 FA intcodelo CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1025 100 intcodelo CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1026 108 intcodelo CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1027 10E intcodelo CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1028 110 intcodelo CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1031 112 intcodelo CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1032 118 intcodelo CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1034 11A intcodelo CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1036 124 intcodelo CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1040 128 intcodelo CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1043 15C intcodelo CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1045 188 intcodelo CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1046 194 intcodelo CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1047 1A0 intcodelo CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1048 1A6 intcodelo CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1051 1A8 intcodelo CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1053 1BE intcodelo CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1075 1C2 intcodelo CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1077 1E0 intcodelo CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1078 1EC intcodelo CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1082 1F6 intcodelo CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1084 226 intcodelo CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1085 232 intcodelo CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1089 23C intcodelo CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1091 256 intcodelo CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1092 262 intcodelo CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1093 26E intcodelo CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1096 270 intcodelo CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1098 276 intcodelo CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1105 27A intcodelo CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1106 27E intcodelo CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1107 28A intcodelo CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1109 2BE intcodelo CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1112 2C8 intcodelo CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1118 31E intcodelo CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1119 396 intcodelo CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1126 462 intcodelo CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1128 4FA intcodelo CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1130 538 intcodelo CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1132 578 intcodelo CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1135 57C intcodelo CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1137 586 intcodelo CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1139 592 intcodelo CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":595 5DC intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":597 608 intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":600 60E intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":601 610 intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":604 612 intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":606 61A intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":607 61C intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":608 61E intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":611 63A intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":614 672 intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":615 674 intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":616 680 intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":617 686 intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":618 688 intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":622 6AC intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":623 6CE intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":625 6DE intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":627 6E2 intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":628 6F2 intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":629 6F4 intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":631 6F6 intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":633 700 intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":635 70C intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":638 70E intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":640 716 intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":641 718 intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":644 71A intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":647 724 intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":648 728 intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":649 72C intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":650 730 intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":651 734 intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":664 738 intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":666 742 intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":667 744 intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":668 746 intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":669 748 intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":670 74A intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":672 74C intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":673 752 intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":674 75A intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":675 760 intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":676 768 intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":677 76E intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":678 776 intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":679 77C intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":680 788 intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":681 78E intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":682 796 intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":683 79C intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":684 7A8 intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":685 7AE intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":686 7B6 intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":687 7BC intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":688 7C4 intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":689 7CA intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":690 7D2 intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":691 7D8 intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":692 7E0 intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":695 7E6 intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":696 7E8 intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":697 7EA intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":698 7EC intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":699 7EE intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":700 7F4 intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":702 80A intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":703 812 intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":704 81C intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":705 822 intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":706 828 intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":707 82E intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":709 834 intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":710 836 intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":711 838 intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":712 83A intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":713 83C intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":714 83E intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":715 844 intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":717 850 intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":718 856 intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":719 85E intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":720 864 intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":721 86C intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":722 872 intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":723 87A intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":724 880 intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":725 88C intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":726 892 intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":727 89A intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":728 8A0 intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":729 8A8 intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":730 8AE intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":731 8B6 intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":733 8BC intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":734 8BE intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":735 8C0 intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":737 8C2 intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":742 8CE intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":743 916 intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":744 952 intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":747 97E intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":748 994 intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":750 9EC intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":760 9FE intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":762 A5E intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":773 A9A intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":779 AD6 intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":781 AEE intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":782 BE8 intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":788 C00 intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":791 C40 intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":794 C88 intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":798 CBC intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":799 D02 intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":816 D4A intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":818 D5A intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":820 DA2 intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":823 DCA intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":824 DDA intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":826 DEA intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":827 E4E intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":828 E50 intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":831 E5C intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":840 E66 intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":843 E7E intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":853 E8E intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":854 EB0 intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":857 ECE intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":859 F26 intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":860 F5A intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":861 F8E intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":864 1012 intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":865 1076 intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":866 10D2 intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":868 1184 intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":870 11F0 intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":872 121C intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":873 1244 intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":875 1268 intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":878 12EC intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":880 133A intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":881 135A intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":883 13AE intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":884 13F6 intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":886 143E intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":887 146A intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":888 146C intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":890 1478 intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":891 1498 intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":894 1532 intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":926 159E intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":928 15CA intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":929 15F2 intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":931 1616 intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":936 169A intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":937 16CA intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":939 16E2 intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":940 1712 intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":944 172A intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":946 176C intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":947 1778 intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":948 1790 intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":951 17A8 intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":952 17B0 intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":953 17B8 intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":955 17F4 intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":956 183C intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":958 1884 intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":959 18BA intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":960 18E6 intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":961 190A intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":962 1912 intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":964 191A intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":965 1932 intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":969 1934 intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":970 199C intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":972 19C8 intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":974 19D8 intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":975 19E4 intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":977 19F0 intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":978 19F0 intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":979 19FC intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":982 1A10 intcode_body CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1287 1A4A text17 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1293 1A4A text17 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1295 1A9E text17 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1298 1AEE text17 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1299 1B74 text17 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1302 1B8C text17 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1303 1BCA text17 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1305 1C0A text17 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1306 1C32 text17 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1307 1C92 text17 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1308 1D56 text17 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1309 1DB0 text17 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1311 1DC8 text17 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1313 1E54 text17 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1315 1EAC text17 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1333 1EE0 text17 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1340 1F0C text17 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1341 1FC8 text17 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1342 1FF0 text17 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1347 2008 text17 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1348 204A text17 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1352 2082 text17 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1353 20B0 text17 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1355 20EC text17 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1356 20F4 text17 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1357 20FC text17 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1360 20FE text17 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1361 212C text17 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1364 2134 text17 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1366 2144 text17 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1370 2146 text17 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1371 214A text17 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fladd.c":88 2598 text34 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fladd.c":92 2598 text34 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fladd.c":93 25CC text34 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fladd.c":94 2600 text34 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fladd.c":95 262C text34 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fladd.c":96 263E text34 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fladd.c":97 266A text34 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fladd.c":98 267C text34 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fladd.c":99 2682 text34 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fladd.c":100 2688 text34 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fladd.c":101 268C text34 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fladd.c":102 2692 text34 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fladd.c":103 2696 text34 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fladd.c":104 269A text34 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fladd.c":105 26B2 text34 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fladd.c":106 26B6 text34 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fladd.c":108 26CE text34 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fladd.c":112 26DA text34 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fladd.c":113 26EE text34 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fladd.c":114 26F2 text34 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fladd.c":116 2712 text34 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fladd.c":117 2726 text34 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fladd.c":115 272A text34 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fladd.c":119 2736 text34 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fladd.c":123 2742 text34 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fladd.c":124 2756 text34 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fladd.c":125 275A text34 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fladd.c":127 277A text34 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fladd.c":128 278E text34 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fladd.c":126 2792 text34 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fladd.c":131 279C text34 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fladd.c":133 27A2 text34 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fladd.c":134 27BA text34 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fladd.c":136 27CE text34 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fladd.c":138 27D4 text34 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fladd.c":139 27EC text34 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fladd.c":141 2800 text34 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fladd.c":142 2806 text34 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fladd.c":143 2826 text34 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fladd.c":144 282C text34 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fladd.c":145 2844 text34 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fladd.c":146 2858 text34 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fladd.c":148 285E text34 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fladd.c":88 288C text23 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fladd.c":92 288C text23 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fladd.c":93 28B2 text23 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fladd.c":94 28D8 text23 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fladd.c":95 28F6 text23 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fladd.c":96 2908 text23 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fladd.c":97 2926 text23 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fladd.c":98 2938 text23 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fladd.c":99 293C text23 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fladd.c":100 293E text23 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fladd.c":101 2940 text23 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fladd.c":102 2942 text23 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fladd.c":103 2944 text23 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fladd.c":104 2946 text23 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fladd.c":105 2956 text23 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fladd.c":106 2958 text23 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fladd.c":108 2968 text23 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fladd.c":112 2970 text23 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fladd.c":113 297A text23 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fladd.c":114 297C text23 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fladd.c":116 2994 text23 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fladd.c":117 299E text23 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fladd.c":115 29A0 text23 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fladd.c":119 29A8 text23 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fladd.c":123 29B0 text23 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fladd.c":124 29BA text23 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fladd.c":125 29BC text23 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fladd.c":127 29D4 text23 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fladd.c":128 29DE text23 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fladd.c":126 29E0 text23 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fladd.c":131 29E6 text23 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fladd.c":133 29EA text23 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fladd.c":134 29FA text23 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fladd.c":136 2A06 text23 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fladd.c":138 2A0A text23 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fladd.c":139 2A1A text23 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fladd.c":141 2A26 text23 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fladd.c":142 2A2A text23 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fladd.c":143 2A3A text23 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fladd.c":144 2A3E text23 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fladd.c":145 2A4E text23 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fladd.c":146 2A5A text23 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fladd.c":148 2A5E text23 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\flmul.c":62 2A8C text28 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\flmul.c":67 2A8C text28 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\flmul.c":68 2AC6 text28 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\flmul.c":69 2AE0 text28 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\flmul.c":70 2B1A text28 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\flmul.c":71 2B34 text28 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\flmul.c":72 2B3E text28 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\flmul.c":73 2B42 text28 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\flmul.c":74 2B4A text28 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\flmul.c":75 2B50 text28 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\flmul.c":77 2B54 text28 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\flmul.c":78 2B58 text28 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\flmul.c":79 2B70 text28 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\flmul.c":197 2B88 text28 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\flmul.c":199 2B8E text28 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\flmul.c":200 2B94 text28 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\flmul.c":201 2BB4 text28 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\flmul.c":202 2BC8 text28 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\flmul.c":203 2BDC text28 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\flmul.c":206 2BE2 text28 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\flmul.c":208 2BE8 text28 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\flmul.c":209 2BEE text28 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\flmul.c":210 2C0E text28 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\flmul.c":211 2C22 text28 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\flmul.c":212 2C36 text28 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\flmul.c":219 2C3C text28 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fldiv.c":49 2C6A text29 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fldiv.c":55 2C6A text29 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fldiv.c":56 2CA4 text29 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fldiv.c":57 2CBE text29 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fldiv.c":58 2CF8 text29 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fldiv.c":59 2D12 text29 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fldiv.c":60 2D1C text29 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fldiv.c":61 2D20 text29 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fldiv.c":62 2D28 text29 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fldiv.c":63 2D2E text29 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fldiv.c":64 2D32 text29 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fldiv.c":65 2D4A text29 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fldiv.c":66 2D4E text29 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fldiv.c":67 2D66 text29 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fldiv.c":69 2D6C text29 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fldiv.c":70 2D80 text29 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fldiv.c":71 2DA4 text29 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fldiv.c":72 2DC4 text29 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fldiv.c":74 2DC8 text29 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fldiv.c":75 2DDC text29 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fldiv.c":76 2DE2 text29 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\double.c":63 2E10 text39 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\double.c":65 2E10 text39 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\double.c":66 2E26 text39 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\double.c":68 2E40 text39 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\double.c":69 2E44 text39 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\double.c":67 2E58 text39 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\double.c":72 2E90 text39 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\double.c":73 2E94 text39 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\double.c":74 2EA8 text39 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\double.c":71 2EBC text39 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\double.c":75 2EBC text39 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\double.c":77 2EF4 text39 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\double.c":78 2EF8 text39 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\double.c":76 2F0C text39 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\double.c":80 2F12 text39 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\double.c":81 2F18 text39 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\double.c":82 2F30 text39 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\double.c":83 2F36 text39 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\double.c":84 2F70 text39 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\double.c":85 2F78 text39 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\double.c":86 2F7C text39 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fltol.c":43 2F8E text33 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fltol.c":47 2F8E text33 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fltol.c":48 2FC8 text33 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fltol.c":49 2FE2 text33 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fltol.c":50 3016 text33 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fltol.c":51 301A text33 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fltol.c":52 3032 text33 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fltol.c":53 3038 text33 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fltol.c":54 303E text33 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fltol.c":55 3054 text33 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fltol.c":57 306E text33 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fltol.c":58 3082 text33 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fltol.c":60 308A text33 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fltol.c":61 3092 text33 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fltol.c":63 30AC text33 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fltol.c":64 30C0 text33 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fltol.c":62 30C4 text33 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fltol.c":67 30CA text33 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fltol.c":68 30D2 text33 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fltol.c":69 30F0 text33 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1451 3102 text0 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1454 3102 text0 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1455 3104 text0 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1456 3108 text0 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1459 310A text0 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1460 310C text0 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1461 310E text0 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1462 3110 text0 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1463 3112 text0 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1464 3114 text0 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1465 3116 text0 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1466 3118 text0 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1468 311A text0 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1469 3126 text0 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1470 3132 text0 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1471 313E text0 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1472 314A text0 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1473 3156 text0 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1474 3162 text0 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1475 317A text0 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1477 3192 text0 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1478 3196 text0 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1479 31A2 text0 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1480 31AE text0 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1481 31C6 text0 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1482 31D2 text0 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1484 31DE text0 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1485 31E0 text0 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1486 31E2 text0 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1487 31E4 text0 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1488 31E6 text0 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1494 31E8 text0 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1495 31EA text0 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1498 31EC text0 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1499 31FC text0 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1500 31FE text0 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1501 3206 text0 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1502 3208 text0 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1503 3210 text0 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1504 3212 text0 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1505 321A text0 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1517 321C text0 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1518 321E text0 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1519 3226 text0 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1522 3228 text0 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1524 3238 text0 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1525 323A text0 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1526 3242 text0 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1529 3244 text0 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1531 3252 text0 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1535 3254 text0 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1537 3258 text0 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1538 325A text0 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1539 325C text0 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1540 325E text0 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1542 3260 text0 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\flmul.c":62 3262 text20 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\flmul.c":67 3262 text20 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\flmul.c":68 328C text20 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\flmul.c":69 329E text20 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\flmul.c":70 32C8 text20 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\flmul.c":71 32DA text20 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\flmul.c":72 32E0 text20 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\flmul.c":73 32E4 text20 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\flmul.c":74 32E8 text20 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\flmul.c":75 32EC text20 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\flmul.c":77 32EE text20 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\flmul.c":78 32F0 text20 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\flmul.c":79 3300 text20 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\flmul.c":197 3310 text20 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\flmul.c":199 3314 text20 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\flmul.c":200 3318 text20 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\flmul.c":201 3328 text20 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\flmul.c":202 3332 text20 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\flmul.c":203 333C text20 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\flmul.c":206 3340 text20 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\flmul.c":208 3344 text20 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\flmul.c":209 3348 text20 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\flmul.c":210 3358 text20 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\flmul.c":211 3362 text20 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\flmul.c":212 336C text20 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\flmul.c":219 3370 text20 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fldiv.c":49 339E text22 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fldiv.c":55 339E text22 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fldiv.c":56 33C8 text22 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fldiv.c":57 33DA text22 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fldiv.c":58 3404 text22 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fldiv.c":59 3416 text22 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fldiv.c":60 341C text22 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fldiv.c":61 3420 text22 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fldiv.c":62 3424 text22 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fldiv.c":63 3428 text22 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fldiv.c":64 342A text22 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fldiv.c":65 343A text22 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fldiv.c":66 343C text22 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fldiv.c":67 344C text22 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fldiv.c":69 3450 text22 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fldiv.c":70 345A text22 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fldiv.c":71 346E text22 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fldiv.c":72 347E text22 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fldiv.c":74 3480 text22 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fldiv.c":75 348A text22 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fldiv.c":76 348E text22 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\flge.c":4 34BC text53 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\flge.c":6 34BC text53 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\flge.c":7 34C2 text53 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\flge.c":8 3516 text53 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\flge.c":9 351C text53 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\flge.c":10 3570 text53 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\flge.c":11 3588 text53 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\flge.c":12 35A0 text53 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fltol.c":43 36CC text18 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fltol.c":47 36CC text18 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fltol.c":48 36F6 text18 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fltol.c":49 3708 text18 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fltol.c":50 372E text18 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fltol.c":51 3730 text18 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fltol.c":52 3740 text18 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fltol.c":53 3744 text18 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fltol.c":54 3748 text18 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fltol.c":55 3758 text18 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fltol.c":57 376A text18 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fltol.c":58 3774 text18 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fltol.c":60 377A text18 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fltol.c":61 3780 text18 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fltol.c":63 3792 text18 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fltol.c":64 379C text18 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fltol.c":62 379E text18 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fltol.c":67 37A2 text18 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fltol.c":68 37A8 text18 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\fltol.c":69 37B8 text18 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\double.c":63 37CA text25 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\double.c":65 37CA text25 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\double.c":66 37DC text25 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\double.c":68 37EE text25 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\double.c":69 37F0 text25 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\double.c":67 37FA text25 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\double.c":72 3820 text25 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\double.c":73 3822 text25 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\double.c":74 382E text25 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\double.c":71 3838 text25 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\double.c":75 3838 text25 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\double.c":77 385E text25 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\double.c":78 3860 text25 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\double.c":76 386A text25 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\double.c":80 386E text25 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\double.c":81 3872 text25 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\double.c":82 3882 text25 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\double.c":83 3886 text25 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\double.c":84 38AA text25 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\double.c":85 38AE text25 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\double.c":86 38B0 text25 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\awdiv.c":8 38C2 text41 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\awdiv.c":14 38C2 text41 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\awdiv.c":15 38C8 text41 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\awdiv.c":16 38DE text41 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\awdiv.c":17 38EA text41 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\awdiv.c":19 38F0 text41 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\awdiv.c":20 3906 text41 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\awdiv.c":21 3912 text41 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\awdiv.c":23 3918 text41 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\awdiv.c":24 3924 text41 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\awdiv.c":25 392E text41 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\awdiv.c":26 3934 text41 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\awdiv.c":27 3936 text41 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\awdiv.c":28 393E text41 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\awdiv.c":26 3942 text41 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\awdiv.c":31 3948 text41 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\awdiv.c":32 3950 text41 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\awdiv.c":33 3964 text41 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\awdiv.c":34 3974 text41 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\awdiv.c":36 3978 text41 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\awdiv.c":37 3980 text41 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\awdiv.c":39 3986 text41 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\awdiv.c":40 398E text41 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\awdiv.c":41 399A text41 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\flge.c":4 39A4 text21 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\flge.c":6 39A4 text21 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\flge.c":7 39A8 text21 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\flge.c":8 39E2 text21 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\flge.c":9 39E6 text21 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\flge.c":10 3A20 text21 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\flge.c":11 3A30 text21 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\flge.c":12 3A40 text21 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1238 3A5C text32 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1240 3A5C text32 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1241 3A6E text32 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1246 3AB2 text32 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1247 3B0E text32 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1268 3B10 text52 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1270 3B10 text52 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1271 3B18 text52 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1272 3B26 text52 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1274 3B30 text52 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1276 3B38 text52 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1277 3B62 text52 CODE
+"C:\Users\Rodrigo\AppData\Local\Temp\s464.":5376 3BAC cinit CODE
+"C:\Users\Rodrigo\AppData\Local\Temp\s464.":5378 3BAC cinit CODE
+"C:\Users\Rodrigo\AppData\Local\Temp\s464.":5381 3BAC cinit CODE
+"C:\Users\Rodrigo\AppData\Local\Temp\s464.":5711 3BAC cinit CODE
+"C:\Users\Rodrigo\AppData\Local\Temp\s464.":5712 3BB0 cinit CODE
+"C:\Users\Rodrigo\AppData\Local\Temp\s464.":5713 3BB2 cinit CODE
+"C:\Users\Rodrigo\AppData\Local\Temp\s464.":5714 3BB2 cinit CODE
+"C:\Users\Rodrigo\AppData\Local\Temp\s464.":5715 3BB4 cinit CODE
+"C:\Users\Rodrigo\AppData\Local\Temp\s464.":5716 3BB6 cinit CODE
+"C:\Users\Rodrigo\AppData\Local\Temp\s464.":5719 3BB8 cinit CODE
+"C:\Users\Rodrigo\AppData\Local\Temp\s464.":5720 3BBC cinit CODE
+"C:\Users\Rodrigo\AppData\Local\Temp\s464.":5721 3BBE cinit CODE
+"C:\Users\Rodrigo\AppData\Local\Temp\s464.":5722 3BBE cinit CODE
+"C:\Users\Rodrigo\AppData\Local\Temp\s464.":5723 3BC0 cinit CODE
+"C:\Users\Rodrigo\AppData\Local\Temp\s464.":5724 3BC2 cinit CODE
+"C:\Users\Rodrigo\AppData\Local\Temp\s464.":5727 3BC4 cinit CODE
+"C:\Users\Rodrigo\AppData\Local\Temp\s464.":5728 3BC6 cinit CODE
+"C:\Users\Rodrigo\AppData\Local\Temp\s464.":5729 3BC8 cinit CODE
+"C:\Users\Rodrigo\AppData\Local\Temp\s464.":5734 3BCA cinit CODE
+"C:\Users\Rodrigo\AppData\Local\Temp\s464.":5735 3BCC cinit CODE
+"C:\Users\Rodrigo\AppData\Local\Temp\s464.":5736 3BCE cinit CODE
+"C:\Users\Rodrigo\AppData\Local\Temp\s464.":5737 3BD0 cinit CODE
+"C:\Users\Rodrigo\AppData\Local\Temp\s464.":5738 3BD2 cinit CODE
+"C:\Users\Rodrigo\AppData\Local\Temp\s464.":5739 3BD4 cinit CODE
+"C:\Users\Rodrigo\AppData\Local\Temp\s464.":5740 3BD6 cinit CODE
+"C:\Users\Rodrigo\AppData\Local\Temp\s464.":5741 3BDA cinit CODE
+"C:\Users\Rodrigo\AppData\Local\Temp\s464.":5742 3BDE cinit CODE
+"C:\Users\Rodrigo\AppData\Local\Temp\s464.":5743 3BDE cinit CODE
+"C:\Users\Rodrigo\AppData\Local\Temp\s464.":5744 3BE0 cinit CODE
+"C:\Users\Rodrigo\AppData\Local\Temp\s464.":5745 3BE4 cinit CODE
+"C:\Users\Rodrigo\AppData\Local\Temp\s464.":5746 3BE6 cinit CODE
+"C:\Users\Rodrigo\AppData\Local\Temp\s464.":5747 3BE8 cinit CODE
+"C:\Users\Rodrigo\AppData\Local\Temp\s464.":5748 3BEA cinit CODE
+"C:\Users\Rodrigo\AppData\Local\Temp\s464.":5749 3BEC cinit CODE
+"C:\Users\Rodrigo\AppData\Local\Temp\s464.":5753 3BEE cinit CODE
+"C:\Users\Rodrigo\AppData\Local\Temp\s464.":5754 3BF0 cinit CODE
+"C:\Users\Rodrigo\AppData\Local\Temp\s464.":5755 3BF2 cinit CODE
+"C:\Users\Rodrigo\AppData\Local\Temp\s464.":5756 3BF4 cinit CODE
+"C:\Users\Rodrigo\AppData\Local\Temp\s464.":5757 3BF6 cinit CODE
+"C:\Users\Rodrigo\AppData\Local\Temp\s464.":5758 3BF8 cinit CODE
+"C:\Users\Rodrigo\AppData\Local\Temp\s464.":5759 3BFA cinit CODE
+"C:\Users\Rodrigo\AppData\Local\Temp\s464.":5760 3BFE cinit CODE
+"C:\Users\Rodrigo\AppData\Local\Temp\s464.":5761 3C02 cinit CODE
+"C:\Users\Rodrigo\AppData\Local\Temp\s464.":5762 3C02 cinit CODE
+"C:\Users\Rodrigo\AppData\Local\Temp\s464.":5763 3C04 cinit CODE
+"C:\Users\Rodrigo\AppData\Local\Temp\s464.":5764 3C08 cinit CODE
+"C:\Users\Rodrigo\AppData\Local\Temp\s464.":5765 3C0A cinit CODE
+"C:\Users\Rodrigo\AppData\Local\Temp\s464.":5766 3C0C cinit CODE
+"C:\Users\Rodrigo\AppData\Local\Temp\s464.":5767 3C0E cinit CODE
+"C:\Users\Rodrigo\AppData\Local\Temp\s464.":5768 3C10 cinit CODE
+"C:\Users\Rodrigo\AppData\Local\Temp\s464.":5772 3C12 cinit CODE
+"C:\Users\Rodrigo\AppData\Local\Temp\s464.":5773 3C14 cinit CODE
+"C:\Users\Rodrigo\AppData\Local\Temp\s464.":5774 3C16 cinit CODE
+"C:\Users\Rodrigo\AppData\Local\Temp\s464.":5775 3C18 cinit CODE
+"C:\Users\Rodrigo\AppData\Local\Temp\s464.":5776 3C1A cinit CODE
+"C:\Users\Rodrigo\AppData\Local\Temp\s464.":5777 3C1C cinit CODE
+"C:\Users\Rodrigo\AppData\Local\Temp\s464.":5778 3C1E cinit CODE
+"C:\Users\Rodrigo\AppData\Local\Temp\s464.":5779 3C22 cinit CODE
+"C:\Users\Rodrigo\AppData\Local\Temp\s464.":5780 3C26 cinit CODE
+"C:\Users\Rodrigo\AppData\Local\Temp\s464.":5781 3C26 cinit CODE
+"C:\Users\Rodrigo\AppData\Local\Temp\s464.":5782 3C28 cinit CODE
+"C:\Users\Rodrigo\AppData\Local\Temp\s464.":5783 3C2C cinit CODE
+"C:\Users\Rodrigo\AppData\Local\Temp\s464.":5784 3C2E cinit CODE
+"C:\Users\Rodrigo\AppData\Local\Temp\s464.":5785 3C30 cinit CODE
+"C:\Users\Rodrigo\AppData\Local\Temp\s464.":5791 3C32 cinit CODE
+"C:\Users\Rodrigo\AppData\Local\Temp\s464.":5793 3C32 cinit CODE
+"C:\Users\Rodrigo\AppData\Local\Temp\s464.":5794 3C34 cinit CODE
+"C:\Users\Rodrigo\AppData\Local\Temp\s464.":5795 3C36 cinit CODE
+"C:\Users\Rodrigo\AppData\Local\Temp\s464.":5796 3C38 cinit CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\lwdiv.c":8 3C3C text47 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\lwdiv.c":14 3C3C text47 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\lwdiv.c":15 3C48 text47 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\lwdiv.c":16 3C52 text47 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\lwdiv.c":17 3C58 text47 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\lwdiv.c":18 3C5A text47 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\lwdiv.c":19 3C62 text47 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\lwdiv.c":17 3C66 text47 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\lwdiv.c":22 3C6C text47 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\lwdiv.c":23 3C74 text47 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\lwdiv.c":24 3C88 text47 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\lwdiv.c":25 3C98 text47 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\lwdiv.c":27 3C9C text47 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\lwdiv.c":28 3CA4 text47 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\lwdiv.c":29 3CAA text47 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\lwdiv.c":30 3CAA text47 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\lwdiv.c":31 3CB2 text47 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1210 3CB4 text37 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1212 3CB4 text37 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1214 3CC6 text37 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1219 3D22 text37 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1188 3D24 text43 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1190 3D24 text43 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1192 3D28 text43 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1195 3D32 text43 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1197 3D3C text43 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1200 3D4C text43 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1202 3D56 text43 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1203 3D66 text43 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1204 3D76 text43 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1205 3D78 text43 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1207 3D7A text43 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1208 3D86 text43 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":564 3D88 text4 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":567 3D88 text4 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":568 3D8C text4 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":569 3D90 text4 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":570 3D94 text4 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":571 3D98 text4 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":572 3D9C text4 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":576 3DA4 text4 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":577 3DAA text4 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":578 3DB0 text4 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":579 3DB6 text4 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":580 3DBC text4 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":583 3DC2 text4 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":584 3DC6 text4 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":585 3DCA text4 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":586 3DCE text4 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":587 3DD2 text4 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":588 3DD6 text4 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":589 3DDA text4 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":590 3DDE text4 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":591 3DE2 text4 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":592 3DE6 text4 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\awtofl.c":31 3DE8 text38 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\awtofl.c":36 3DE8 text38 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\awtofl.c":37 3DEE text38 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\awtofl.c":38 3E04 text38 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\awtofl.c":39 3E10 text38 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\awtofl.c":41 3E14 text38 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\awtofl.c":31 3E48 text24 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\awtofl.c":36 3E48 text24 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\awtofl.c":37 3E4C text24 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\awtofl.c":38 3E60 text24 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\awtofl.c":39 3E68 text24 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\awtofl.c":41 3E6A text24 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\flneg.c":15 3E94 text27 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\flneg.c":17 3E94 text27 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\flneg.c":18 3EA6 text27 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\flneg.c":19 3EBE text27 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1249 3ED0 text36 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1251 3ED0 text36 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1252 3EE2 text36 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1266 3F08 text36 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\lwtofl.c":28 3F0A text35 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\lwtofl.c":30 3F0A text35 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\Umul16.c":15 3F40 text40 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\Umul16.c":37 3F40 text40 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\Umul16.c":38 3F50 text40 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\Umul16.c":39 3F5E text40 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\Umul16.c":52 3F6C text40 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\ADC_K22.c":15 3F76 text12 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\ADC_K22.c":21 3F76 text12 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\ADC_K22.c":22 3F7A text12 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\ADC_K22.c":24 3F7E text12 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\ADC_K22.c":26 3F82 text12 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\ADC_K22.c":28 3F86 text12 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\ADC_K22.c":30 3F8A text12 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\ADC_K22.c":34 3F8E text12 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\ADC_K22.c":39 3F90 text12 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\ADC_K22.c":40 3F94 text12 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\ADC_K22.c":45 3F98 text12 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\ADC_K22.c":46 3F9A text12 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\ADC_K22.c":47 3F9C text12 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\ADC_K22.c":49 3F9E text12 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\ADC_K22.c":53 3FA6 text12 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\ADC_K22.c":54 3FA8 text12 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\ADC_K22.c":56 3FAA text54 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\ADC_K22.c":58 3FAE text54 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\ADC_K22.c":59 3FC4 text54 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\ADC_K22.c":60 3FCC text54 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\ADC_K22.c":61 3FCE text54 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\ADC_K22.c":63 3FD2 text54 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\ADC_K22.c":64 3FDC text54 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\flneg.c":15 3FDE text19 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\flneg.c":17 3FDE text19 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\flneg.c":18 3FEE text19 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.33\sources\common\flneg.c":19 3FFE text19 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\TIMERS_XC8.c":301 4010 text46 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\TIMERS_XC8.c":304 4010 text46 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\TIMERS_XC8.c":305 4032 text46 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\TIMERS_XC8.c":43 403C text51 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\TIMERS_XC8.c":46 403C text51 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\TIMERS_XC8.c":47 405E text51 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\ADC_K22.c":56 4068 text16 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\ADC_K22.c":58 406A text16 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\ADC_K22.c":59 407C text16 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\ADC_K22.c":60 4084 text16 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\ADC_K22.c":61 4086 text16 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\ADC_K22.c":63 408A text16 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\ADC_K22.c":64 4090 text16 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1221 4092 text42 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1223 4092 text42 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1224 40A0 text42 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1226 40AA text42 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1228 40B0 text42 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1231 40B2 text42 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1232 40B8 text42 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1151 40BC text48 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1153 40BC text48 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1154 40D2 text48 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1155 40DA text48 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1156 40E2 text48 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1143 40E4 text1 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1145 40E4 text1 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1146 40FA text1 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1147 4100 text1 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1148 4108 text1 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1143 410A text30 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1145 410A text30 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1146 4120 text30 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1147 4126 text30 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1148 412E text30 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\TIMERS_XC8.c":52 4130 text7 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\TIMERS_XC8.c":54 4130 text7 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\TIMERS_XC8.c":62 4132 text7 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\TIMERS_XC8.c":63 4134 text7 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\TIMERS_XC8.c":65 4136 text7 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\TIMERS_XC8.c":66 4138 text7 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\TIMERS_XC8.c":67 413C text7 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\TIMERS_XC8.c":68 413E text7 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\TIMERS_XC8.c":69 4142 text7 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\TIMERS_XC8.c":71 4146 text7 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\TIMERS_XC8.c":72 4148 text7 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\TIMERS_XC8.c":74 414A text44 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\TIMERS_XC8.c":76 414A text44 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\TIMERS_XC8.c":77 415E text44 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\TIMERS_XC8.c":78 4162 text44 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\TIMERS_XC8.c":295 4164 text45 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\TIMERS_XC8.c":297 4164 text45 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\TIMERS_XC8.c":298 4178 text45 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\TIMERS_XC8.c":299 417C text45 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\TIMERS_XC8.c":37 417E text50 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\TIMERS_XC8.c":39 417E text50 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\TIMERS_XC8.c":40 4192 text50 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\TIMERS_XC8.c":41 4196 text50 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1281 4198 text15 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1283 4198 text15 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1284 41A0 text15 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":1285 41AE text15 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\SPI_XC8.c":89 41B0 text49 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\SPI_XC8.c":95 41B4 text49 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\SPI_XC8.c":96 41BC text49 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\SPI_XC8.c":97 41C0 text49 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\SPI_XC8.c":100 41C2 text49 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\SPI_XC8.c":97 41C4 text49 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\TIMERS_XC8.c":14 41C6 text9 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\TIMERS_XC8.c":16 41C6 text9 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\TIMERS_XC8.c":24 41C8 text9 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\TIMERS_XC8.c":25 41CA text9 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\TIMERS_XC8.c":27 41CC text9 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\TIMERS_XC8.c":28 41CE text9 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\TIMERS_XC8.c":29 41D2 text9 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\TIMERS_XC8.c":32 41D4 text9 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\TIMERS_XC8.c":34 41D6 text9 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\TIMERS_XC8.c":35 41D8 text9 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\TIMERS_XC8.c":267 41DA text10 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\TIMERS_XC8.c":269 41DA text10 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\TIMERS_XC8.c":270 41DC text10 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\TIMERS_XC8.c":271 41DE text10 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\TIMERS_XC8.c":282 41E0 text10 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\TIMERS_XC8.c":286 41E2 text10 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\TIMERS_XC8.c":287 41E4 text10 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\TIMERS_XC8.c":288 41E6 text10 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\TIMERS_XC8.c":290 41E8 text10 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\TIMERS_XC8.c":293 41EA text10 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\SPI_XC8.c":19 41EC text3 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\SPI_XC8.c":22 41EC text3 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\SPI_XC8.c":23 41F0 text3 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\SPI_XC8.c":25 41F4 text3 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\SPI_XC8.c":26 41F6 text3 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\SPI_XC8.c":27 41F8 text3 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\SPI_XC8.c":30 41FA text3 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\SPI_XC8.c":76 41FC text5 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\SPI_XC8.c":79 41FC text5 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\SPI_XC8.c":80 4200 text5 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\SPI_XC8.c":81 4204 text5 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\SPI_XC8.c":82 4206 text5 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\SPI_XC8.c":84 4208 text5 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\SPI_XC8.c":87 420A text5 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":552 420C text6 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":554 420C text6 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":555 4210 text6 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":556 4214 text6 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":557 4216 text6 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":558 4218 text6 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\main.c":559 421A text6 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\TIMERS_XC8.c":125 421C text8 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\TIMERS_XC8.c":144 421C text8 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\TIMERS_XC8.c":145 421E text8 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\TIMERS_XC8.c":146 4220 text8 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\TIMERS_XC8.c":147 4222 text8 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\TIMERS_XC8.c":153 4224 text8 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\TIMERS_XC8.c":154 4226 text8 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\TIMERS_XC8.c":156 4228 text8 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\TIMERS_XC8.c":157 422A text8 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\SPI_XC8.c":33 422C text2 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\SPI_XC8.c":40 4230 text2 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\SPI_XC8.c":41 4234 text2 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\SPI_XC8.c":45 4236 text2 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\SPI_XC8.c":41 4238 text2 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\SPI_XC8.c":33 423A text31 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\SPI_XC8.c":40 423E text31 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\SPI_XC8.c":41 4242 text31 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\SPI_XC8.c":45 4244 text31 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\SPI_XC8.c":41 4246 text31 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\SPI_XC8.c":33 4248 text14 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\SPI_XC8.c":40 424A text14 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\SPI_XC8.c":41 424E text14 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\SPI_XC8.c":45 4250 text14 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\SPI_XC8.c":41 4252 text14 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\EXT_INT.c":12 4254 text11 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\EXT_INT.c":14 4254 text11 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\EXT_INT.c":21 4256 text11 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\EXT_INT.c":28 4258 text11 CODE
+"C:\Users\Rodrigo\Desktop\MESTRADO-USP\Projeto\Versao_sw_polo_sorocaba\Versao8\Gerenciamento\Gerenciamento_46K22.X\EXT_INT.c":29 425A text11 CODE
+# %SYMTAB Section
+# An enumeration of all symbols in the program.
+# The beginning of the section is indicated by %SYMTAB.
+# Each line describes a single symbol as follows:
+#    <label> <value> [-]<load-adj> <class> <space> <psect> <file-name>
+# The value and load-adj are both in unqualified hexadecimal.
+# All other numeric values are in decimal.  The load-adj is the
+# quantity one needs to add to the symbol value in order to obtain the load
+# address of the symbol.  This value may be signed. If the symbol
+# was defined in a psect then <psect> will be "-". File-name
+# is the name of the object file in which the symbol was defined.
+%SYMTAB
+___lwdiv@dividend 71 0 BANK0 1 cstackBANK0 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__CFG_XINST$OFF 0 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+___awdiv@counter 7B 0 BANK0 1 cstackBANK0 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_a 188 0 BANK1 1 bssBANK1 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_b 18C 0 BANK1 1 bssBANK1 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_c 18E 0 BANK1 1 bssBANK1 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_d 196 0 BANK1 1 bssBANK1 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_e 19A 0 BANK1 1 bssBANK1 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_rotacao_temp_1 150 0 BANK1 1 bssBANK1 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_n 1B0 0 BANK1 1 bssBANK1 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+___lwdiv@counter 77 0 BANK0 1 cstackBANK0 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_controle_lambda 118 0 BANK1 1 bssBANK1 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+controle_rpm@ref_vb_temp 17C 0 BANK1 1 bssBANK1 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__size_of_MASTER_SPI_WRITE2 0 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_dm 198 0 BANK1 1 bssBANK1 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__size_ofi2_Read_ADC 0 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_rs 154 0 BANK1 1 bssBANK1 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_contro_lambda 114 0 BANK1 1 bssBANK1 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_PR2 FBB 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__S0 30000E 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__S1 74C 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__S2 0 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_SSP1STATbits FC7 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_SSP2STATbits F6D 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Hintentry 0 0 ABS 0 intentry dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Lintentry 0 0 ABS 0 intentry dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_Config_Timer1 41C6 0 CODE 0 text9 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+___fladd@f1 27 0 COMRAM 1 cstackCOMRAM dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_n_e 1B2 0 BANK1 1 bssBANK1 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_ig_tmr_disparo_temp 128 0 BANK1 1 bssBANK1 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_ij_tmr_disparo_temp 130 0 BANK1 1 bssBANK1 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__end_of___awdiv 39A4 0 CODE 0 text41 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_map 1AE 0 BANK1 1 bssBANK1 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+i2_Read_ADC 3FAA 0 CODE 0 text54 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_TMR2 FBC 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_TMR4 F53 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_TMR6 F4C 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+___flneg@f1 10 0 COMRAM 1 cstackCOMRAM dist/default/debug\Gerenciamento_46K22.X.debug.obj
+___fladd@f2 2B 0 COMRAM 1 cstackCOMRAM dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_Config_ADC 3F76 0 CODE 0 text12 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+i2___fladd@sign B6 0 BANK0 1 cstackBANK0 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_t_inj_extra 1BC 0 BANK1 1 bssBANK1 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__size_of_lambda_Read 0 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_pedal_ad DB 0 BANK0 1 bssBANK0 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+i2___flpack@exp 75 0 BANK0 1 cstackBANK0 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_Vet_TempAg 200 0 BANK2 1 dataBANK2 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+i1_MASTER_SPI_WRITE1 4248 0 CODE 0 text14 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+i2_MASTER_SPI_WRITE1 423A 0 CODE 0 text31 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_flag E6 0 BANK0 1 bssBANK0 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_m_ar 134 0 BANK1 1 bssBANK1 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_main 3102 0 CODE 0 text0 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_t_ar 15C 0 BANK1 1 bssBANK1 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+___sp 0 0 STACK 2 stack C:\Users\Rodrigo\AppData\Local\Temp\s464.obj
+_temp 170 0 BANK1 1 bssBANK1 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+?i2_Read_ADC 71 0 BANK0 1 cstackBANK0 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+?___fladd 27 0 COMRAM 1 cstackCOMRAM dist/default/debug\Gerenciamento_46K22.X.debug.obj
+start 5D8 0 CODE 0 init C:\Users\Rodrigo\AppData\Local\Temp\s464.obj
+_fator_corr_vbat 11C 0 BANK1 1 bssBANK1 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+___fltol@f1 1 0 COMRAM 1 cstackCOMRAM dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_OffSet_refRPM E1 0 BANK0 1 bssBANK0 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_ij_dente_14_extra 1AA 0 BANK1 1 bssBANK1 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+___flmul@f1 14 0 COMRAM 1 cstackCOMRAM dist/default/debug\Gerenciamento_46K22.X.debug.obj
+___fldiv@f1 36 0 COMRAM 1 cstackCOMRAM dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_TMR0H FD7 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_TMR1H FCF 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_TMR3H FB3 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_TMR5H F50 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_TMR0L FD6 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_TMR1L FCE 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+i2___flge 34BC 0 CODE 0 text53 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_pressao_ar_10bits 140 0 BANK1 1 bssBANK1 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_TMR3L FB2 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_TMR5L F4F 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_TRISA F92 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_conta_dente 3D24 0 CODE 0 text43 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_TRISB F93 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_TRISC F94 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_TRISD F95 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__end_of___flmul 339E 0 CODE 0 text20 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Hirdata 0 0 CODE 0 irdata dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_TRISE F96 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Lirdata 0 0 CODE 0 irdata dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__HRAM 0 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__end_of_Low_Isr 5D8 0 CODE 0 intcodelo dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__LRAM 1 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_high_isr$3059 C7 0 BANK0 1 cstackBANK0 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+___flmul@f2 18 0 COMRAM 1 cstackCOMRAM dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_Send_Spi 184 0 BANK1 1 bssBANK1 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+___fldiv@f2 3A 0 COMRAM 1 cstackCOMRAM dist/default/debug\Gerenciamento_46K22.X.debug.obj
+?___flneg 10 0 COMRAM 1 cstackCOMRAM dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__CFG_WDTPS$32768 0 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Hconfig 30000E 0 CONFIG 0 config dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Lconfig 300000 0 CONFIG 0 config dist/default/debug\Gerenciamento_46K22.X.debug.obj
+___flpack 37CA 0 CODE 0 text25 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+i2___fladd@f1 AA 0 BANK0 1 cstackBANK0 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+___fldiv@f3 42 0 COMRAM 1 cstackCOMRAM dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_Flag_MarchaLenta 182 0 BANK1 1 bssBANK1 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Hbigram 0 0 ABS 0 bigram dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Lbigram 0 0 ABS 0 bigram dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_falha_ok 19E 0 BANK1 1 bssBANK1 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_angle 18A 0 BANK1 1 bssBANK1 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Hram 0 0 ABS 0 ram dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Lram 0 0 ABS 0 ram dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Hcomram 0 0 ABS 0 comram dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Lcomram 0 0 ABS 0 comram dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_dente E5 0 BANK0 1 bssBANK0 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Hsfr 0 0 ABS 0 sfr dist/default/debug\Gerenciamento_46K22.X.debug.obj
+___flge@ff1 10 0 COMRAM 1 cstackCOMRAM dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Lsfr 0 0 ABS 0 sfr dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Hbss 0 0 RAM 1 bss dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Lbss 0 0 RAM 1 bss dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Hnvrram 0 0 COMRAM 1 nvrram dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Lnvrram 0 0 COMRAM 1 nvrram dist/default/debug\Gerenciamento_46K22.X.debug.obj
+i2___fladd 2598 0 CODE 0 text34 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_t_ar_com 1BA 0 BANK1 1 bssBANK1 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+___awtofl 3E48 0 CODE 0 text24 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+___flmul@cntr 25 0 COMRAM 1 cstackCOMRAM dist/default/debug\Gerenciamento_46K22.X.debug.obj
+___lwtofl 3F0A 0 CODE 0 text35 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+___fldiv@cntr 46 0 COMRAM 1 cstackCOMRAM dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_TRISB0 7C98 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_TRISB1 7C99 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_TRISD0 7CA8 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+___flge@ff2 14 0 COMRAM 1 cstackCOMRAM dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_TRISB2 7C9A 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_TRISD1 7CA9 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_TRISC3 7CA3 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_estado_controle_ml 19C 0 BANK1 1 bssBANK1 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_TRISD3 7CAB 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_TRISA5 7C95 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_TRISC4 7CA4 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_TRISD4 7CAC 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_TRISC5 7CA5 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+?___fltol 1 0 COMRAM 1 cstackCOMRAM dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__size_of_controle_rpm 0 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_erro_rpm CB 0 BANK0 1 bssBANK0 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_PIE1bits F9D 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_PIE2bits FA0 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Heeprom_data 0 0 EEDATA 0 eeprom_data dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Leeprom_data 0 0 EEDATA 0 eeprom_data dist/default/debug\Gerenciamento_46K22.X.debug.obj
+?___flmul 14 0 COMRAM 1 cstackCOMRAM dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_tempo_bob_temp 1C0 0 BANK1 1 bssBANK1 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_PIR1bits F9E 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_PIR2bits FA1 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__size_of_Config_Int_Ext0 0 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__end_of_Battery_ad_Read 3BAC 0 CODE 0 text52 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_LATBbits F8A 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_LATCbits F8B 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_LATDbits F8C 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_Config_Int_Ext0 4254 0 CODE 0 text11 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Hintsave_regs 0 0 BIGRAM 1 intsave_regs dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_TMR3IE 7D01 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_LATEbits F8D 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Lintsave_regs 0 0 BIGRAM 1 intsave_regs dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_TMR5IE 7BE9 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__size_ofi2___awtofl 0 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_ANSELA F38 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+?___fldiv 36 0 COMRAM 1 cstackCOMRAM dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_tempo_bob 1BE 0 BANK1 1 bssBANK1 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__size_of_Read_ADC 0 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_RCONbits FD0 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_sensor_t_ar 1B8 0 BANK1 1 bssBANK1 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_ANSELB F39 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_ANSELC F3A 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_ANSELD F3B 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_SPI_MASTER1_Chip 420C 0 CODE 0 text6 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Hbigbss 0 0 BIGRAM 1 bigbss dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Lbigbss 0 0 BIGRAM 1 bigbss dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_ANSELE F3C 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+?___awdiv 77 0 BANK0 1 cstackBANK0 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Hintret 0 0 ABS 0 intret dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Lintret 0 0 ABS 0 intret dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Hramtop 1000 0 RAM 0 ramtop dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Lramtop 1000 0 RAM 0 ramtop dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Hstruct 0 0 COMRAM 1 struct dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Lstruct 0 0 COMRAM 1 struct dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_high_isr 8 0 CODE 0 intcode dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Hbigdata 0 0 BIGRAM 1 bigdata dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Lbigdata 0 0 BIGRAM 1 bigdata dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Hmediumconst 10000 0 MEDIUMCONST 0 mediumconst dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Lmediumconst F49E 0 MEDIUMCONST 0 mediumconst dist/default/debug\Gerenciamento_46K22.X.debug.obj
+i2___flneg@f1 97 0 BANK0 1 cstackBANK0 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+?___lwdiv 71 0 BANK0 1 cstackBANK0 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Hfarbss 0 0 FARRAM 0 farbss dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Lfarbss 0 0 FARRAM 0 farbss dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__pmediumconst F49E 0 MEDIUMCONST 0 mediumconst dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_TMR0IP 7F8A 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_TMR1IP 7CF8 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_TMR2IP 7CF9 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Hintcode 18 0 CODE 0 intcode dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_TMR3IP 7D11 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Lintcode 8 0 CODE 0 intcode dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Hfardata 0 0 FARRAM 0 fardata dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_ADRESH FC4 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Lfardata 0 0 FARRAM 0 fardata dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__end_of_pedal_ad_Read 41B0 0 CODE 0 text15 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_Config_Timer2 421C 0 CODE 0 text8 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__pintcode 8 0 CODE 0 intcode dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__size_ofi1_MASTER_SPI_WRITE1 0 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Habs1 0 0 ABS 0 abs1 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Labs1 0 0 ABS 0 abs1 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__CFG_EBTR0$OFF 0 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_flag_controle_ign 1A0 0 BANK1 1 bssBANK1 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+i2___fladd@f2 AE 0 BANK0 1 cstackBANK0 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__size_of_t_ar_ad_Read 0 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+___flmul@f3_as_product 21 0 COMRAM 1 cstackCOMRAM dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_ANTref_vb 1E6 0 BANK1 1 dataBANK1 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+i2___flneg 3E94 0 CODE 0 text27 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__HnvFARRAM 0 0 FARRAM 0 nvFARRAM dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__LnvFARRAM 0 0 FARRAM 0 nvFARRAM dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__size_ofi2_MASTER_SPI_WRITE1 0 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+?i2___awtofl 7F 0 BANK0 1 cstackBANK0 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__size_of_SPI_MASTER1 0 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__size_of_SPI_MASTER2 0 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__CFG_EBTR1$OFF 0 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+?___flpack 1 0 COMRAM 1 cstackCOMRAM dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__end_of___fltol 37CA 0 CODE 0 text18 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__size_of_conta_dente 0 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__size_of___fldiv 0 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__end_of___flge 3A5C 0 CODE 0 text21 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+i2___flmul@sign 96 0 BANK0 1 cstackBANK0 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+___fladd@sign 33 0 COMRAM 1 cstackCOMRAM dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_lambda E7 0 BANK0 1 bssBANK0 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_UnionAllReles 186 0 BANK1 1 bssBANK1 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Hdata 0 0 ABS 0 data dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Ldata 0 0 ABS 0 data dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_Spi2_Write16 40BC 0 CODE 0 text48 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+i2___flpack@sign 76 0 BANK0 1 cstackBANK0 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+___flge 39A4 0 CODE 0 text21 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_m_comb 138 0 BANK1 1 bssBANK1 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_AD_Req 180 0 BANK1 1 bssBANK1 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_ij_ref FEEF 0 MEDIUMCONST 0 mediumconst dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_t_agua DF 0 BANK0 1 bssBANK0 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_ref_vb DD 0 BANK0 1 bssBANK0 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_VetBat 300 0 BIGRAM 1 dataBIGRAM dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_tempo_inj_temp D3 0 BANK0 1 bssBANK0 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+stackhi F37 0 ABS 0 - C:\Users\Rodrigo\AppData\Local\Temp\s464.obj
+__size_of_t_agua_ad_Read 0 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+i2___fldiv@sign A9 0 BANK0 1 cstackBANK0 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_p_rail 5F 0 COMRAM 1 bssCOMRAM dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_Kp_inj FFFB 0 MEDIUMCONST 0 mediumconst dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__HcstackBANK0 0 0 ABS 0 cstackBANK0 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__LcstackBANK0 0 0 ABS 0 cstackBANK0 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_tempo_inj 1C2 0 BANK1 1 bssBANK1 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__pcstackBANK0 60 0 BANK0 1 cstackBANK0 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_fator_inj 120 0 BANK1 1 bssBANK1 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Htemp 0 0 COMRAM 1 temp dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Ltemp 0 0 COMRAM 1 temp dist/default/debug\Gerenciamento_46K22.X.debug.obj
+stacklo A00 0 ABS 0 - C:\Users\Rodrigo\AppData\Local\Temp\s464.obj
+_Ki_rpm FFF7 0 MEDIUMCONST 0 mediumconst dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_Kp_rpm 104 0 BANK1 1 bssBANK1 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Hrbit 0 0 COMRAM 1 rbit dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Lrbit 0 0 COMRAM 1 rbit dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Hinit 5D8 0 CODE 0 init dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Linit 5D8 0 CODE 0 init dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Hintcodelo 5D8 0 CODE 0 intcodelo dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Lintcodelo 18 0 CODE 0 intcodelo dist/default/debug\Gerenciamento_46K22.X.debug.obj
+___wmul 3F40 0 CODE 0 text40 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_t_inj_lim 160 0 BANK1 1 bssBANK1 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+?i2___fladd AA 0 BANK0 1 cstackBANK0 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Hrbss 0 0 COMRAM 1 rbss dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__end_of_main 3262 0 CODE 0 text0 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__size_of___lwtofl 0 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Lrbss 0 0 COMRAM 1 rbss dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__pintcodelo 18 0 CODE 0 intcodelo dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_ig_pos 1A4 0 BANK1 1 bssBANK1 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+i2Read_ADC@channel 74 0 BANK0 1 cstackBANK0 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Htext 0 0 ABS 0 text dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_Vet_TempAr 54C 0 BIGRAM 1 dataBIGRAM dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Ltext 0 0 ABS 0 text dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__end_of___fldiv 34BC 0 CODE 0 text22 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_ig_dente_14_temp D7 0 BANK0 1 bssBANK0 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_ij_dente_14_temp D9 0 BANK0 1 bssBANK0 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+i2___fladd@exp1 B8 0 BANK0 1 cstackBANK0 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+?___awtofl B 0 COMRAM 1 cstackCOMRAM dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_volta_spi 1C4 0 BANK1 1 bssBANK1 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_Kref1_rpm 108 0 BANK1 1 bssBANK1 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_cont_partida 190 0 BANK1 1 bssBANK1 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_Kref2_rpm 10C 0 BANK1 1 bssBANK1 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+?___lwtofl 7B 0 BANK0 1 cstackBANK0 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+___wmul@multiplier 71 0 BANK0 1 cstackBANK0 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__size_ofi2___flge 0 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_t_periodo 168 0 BANK1 1 bssBANK1 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+___flmul@sign 26 0 COMRAM 1 cstackCOMRAM dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__end_of___lwtofl 3F40 0 CODE 0 text35 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+end_of_initialization 3C32 0 CODE 0 cinit dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__size_ofi2___fladd 0 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+i2___fltol@f1 B9 0 BANK0 1 cstackBANK0 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__size_ofi2___flneg 0 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+___fldiv@sign 48 0 COMRAM 1 cstackCOMRAM dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__size_ofi2___fltol 0 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__size_ofi2___flmul 0 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__size_ofi2___fldiv 0 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+___awdiv@sign 7C 0 BANK0 1 cstackBANK0 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__end_of___flneg 4010 0 CODE 0 text19 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__end_ofi2___flneg 3ED0 0 CODE 0 text27 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+i2___flmul@f1 84 0 BANK0 1 cstackBANK0 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+___wmul@multiplicand 73 0 BANK0 1 cstackBANK0 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__size_ofi2___flpack 0 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+i2___fltol 2F8E 0 CODE 0 text33 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__size_of_Low_Isr 0 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__size_of___awtofl 0 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+i2___fldiv@f1 97 0 BANK0 1 cstackBANK0 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__HdataBANK1 0 0 ABS 0 dataBANK1 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__LdataBANK1 0 0 ABS 0 dataBANK1 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_Get_Timer0 4010 0 CODE 0 text46 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_Set_Timer0 4164 0 CODE 0 text45 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+i2___flmul 2A8C 0 CODE 0 text28 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__size_of_Config_ADC 0 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__pdataBANK1 1E6 0 BANK1 1 dataBANK1 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__end_ofi2_Read_ADC 3FDE 0 CODE 0 text54 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_Low_Isr$2974 55 0 COMRAM 1 cstackCOMRAM dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__end_of_Read_ADC 4092 0 CODE 0 text16 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_PORTBbits F81 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_Config_Timer3 4130 0 CODE 0 text7 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_T0CONbits FD5 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_T1CONbits FCD 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_T2CONbits FBA 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_T3CONbits FB1 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_T4CONbits F51 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_T5CONbits F4E 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_T6CONbits F4A 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+i2___fldiv 2C6A 0 CODE 0 text29 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_Get_Timer1 403C 0 CODE 0 text51 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_Set_Timer1 417E 0 CODE 0 text50 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__end_of_lambda_Read 40BC 0 CODE 0 text42 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__end_of_controle_rpm 214C 0 CODE 0 text17 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__end_ofi2___fladd 288C 0 CODE 0 text34 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_SSP1BUF FC9 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_SSP2BUF F6F 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__end_of_high_isr 1A4A 0 CODE 0 intcode_body dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__end_ofi2___awtofl 3E48 0 CODE 0 text38 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Hibigdata 0 0 CODE 0 ibigdata dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Libigdata 0 0 CODE 0 ibigdata dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__HdataBANK2 0 0 ABS 0 dataBANK2 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__LdataBANK2 0 0 ABS 0 dataBANK2 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__pdataBANK2 200 0 BANK2 1 dataBANK2 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_controle_rpm$2976 4D 0 COMRAM 1 cstackCOMRAM dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_controle_rpm$2977 51 0 COMRAM 1 cstackCOMRAM dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Hifardata 0 0 CODE 0 ifardata dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Lifardata 0 0 CODE 0 ifardata dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Hbank0 0 0 ABS 0 bank0 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Lbank0 0 0 ABS 0 bank0 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Hbank1 0 0 ABS 0 bank1 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Lbank1 0 0 ABS 0 bank1 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Hbank2 0 0 ABS 0 bank2 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Lbank2 0 0 ABS 0 bank2 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+i1MASTER_SPI_WRITE1@dados 1 0 COMRAM 1 cstackCOMRAM dist/default/debug\Gerenciamento_46K22.X.debug.obj
+i2MASTER_SPI_WRITE1@dados 71 0 BANK0 1 cstackBANK0 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+___flmul@exp 20 0 COMRAM 1 cstackCOMRAM dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__end_of_conta_dente 3D88 0 CODE 0 text43 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Hbank3 0 0 ABS 0 bank3 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Lbank3 0 0 ABS 0 bank3 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+___fldiv@exp 47 0 COMRAM 1 cstackCOMRAM dist/default/debug\Gerenciamento_46K22.X.debug.obj
+i2___flmul@f2 88 0 BANK0 1 cstackBANK0 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Hbank4 0 0 ABS 0 bank4 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Lbank4 0 0 ABS 0 bank4 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_Set_Timer3 414A 0 CODE 0 text44 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Hbank5 0 0 ABS 0 bank5 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Lbank5 0 0 ABS 0 bank5 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+i2___awtofl@sign 83 0 BANK0 1 cstackBANK0 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Hpowerup 5D8 0 CODE 0 powerup dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Lpowerup 5D8 0 CODE 0 powerup dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Hbank6 0 0 ABS 0 bank6 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Lbank6 0 0 ABS 0 bank6 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Hbank7 0 0 ABS 0 bank7 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Lbank7 0 0 ABS 0 bank7 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_controle_lbd_int 192 0 BANK1 1 bssBANK1 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__size_of_SPI_MASTER1_Chip 0 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Hbank8 0 0 ABS 0 bank8 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Lbank8 0 0 ABS 0 bank8 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_lambda_Read 4092 0 CODE 0 text42 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Htext0 0 0 ABS 0 text0 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Ltext0 0 0 ABS 0 text0 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Hbank9 0 0 ABS 0 bank9 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_map_ad_Read 3CB4 0 CODE 0 text37 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Lbank9 0 0 ABS 0 bank9 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Htext1 0 0 ABS 0 text1 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Ltext1 0 0 ABS 0 text1 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+i2Spi_Write16@data 72 0 BANK0 1 cstackBANK0 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__ptext0 3102 0 CODE 0 text0 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_INTCON2bits FF1 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Htext2 0 0 ABS 0 text2 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Ltext2 0 0 ABS 0 text2 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__ptext1 40E4 0 CODE 0 text1 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+i2___fldiv@f2 9B 0 BANK0 1 cstackBANK0 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Htext3 0 0 ABS 0 text3 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Ltext3 0 0 ABS 0 text3 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__ptext2 422C 0 CODE 0 text2 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+?i2___flneg 97 0 BANK0 1 cstackBANK0 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Htext4 0 0 ABS 0 text4 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Ltext4 0 0 ABS 0 text4 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__ptext3 41EC 0 CODE 0 text3 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+Set_Timer0@data_timer 71 0 BANK0 1 cstackBANK0 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Htext5 0 0 ABS 0 text5 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Ltext5 0 0 ABS 0 text5 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__ptext4 3D88 0 CODE 0 text4 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_ig_dente_14 1A2 0 BANK1 1 bssBANK1 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_ij_dente_14 1A8 0 BANK1 1 bssBANK1 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Htext6 0 0 ABS 0 text6 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Ltext6 0 0 ABS 0 text6 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__ptext5 41FC 0 CODE 0 text5 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Htext7 0 0 ABS 0 text7 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Ltext7 0 0 ABS 0 text7 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__size_of_Configure_HW 0 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__ptext6 420C 0 CODE 0 text6 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__HbssCOMRAM 0 0 ABS 0 bssCOMRAM dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__LbssCOMRAM 0 0 ABS 0 bssCOMRAM dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Htext8 0 0 ABS 0 text8 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Ltext8 0 0 ABS 0 text8 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__end_ofi2___fldiv 2E10 0 CODE 0 text29 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__ptext7 4130 0 CODE 0 text7 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__pbssCOMRAM 5D 0 COMRAM 1 bssCOMRAM dist/default/debug\Gerenciamento_46K22.X.debug.obj
+Set_Timer1@data_timer 71 0 BANK0 1 cstackBANK0 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Htext9 0 0 ABS 0 text9 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__HcstackBANK1 0 0 ABS 0 cstackBANK1 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Ltext9 0 0 ABS 0 text9 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__LcstackBANK1 0 0 ABS 0 cstackBANK1 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_Low_Isr$2975 59 0 COMRAM 1 cstackCOMRAM dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__ptext8 421C 0 CODE 0 text8 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__size_ofi2_Spi_Write16 0 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__ptext9 41C6 0 CODE 0 text9 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__pcstackBANK1 1CE 0 BANK1 1 cstackBANK1 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_sensor_t_agua 1B6 0 BANK1 1 bssBANK1 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__end_ofi2___fltol 3102 0 CODE 0 text33 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Hclrtext 0 0 ABS 0 clrtext dist/default/debug\Gerenciamento_46K22.X.debug.obj
+i2___flpack 2E10 0 CODE 0 text39 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Lclrtext 0 0 ABS 0 clrtext dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_t_agua_ad_Read 3ED0 0 CODE 0 text36 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+Set_Timer3@data_timer 71 0 BANK0 1 cstackBANK0 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_estado_temp_ml 5D 0 COMRAM 1 bssCOMRAM dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__size_of_Get_Timer0 0 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__size_of_Get_Timer1 0 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_SPI_MASTER1 41EC 0 CODE 0 text3 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_t_inj_real 164 0 BANK1 1 bssBANK1 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__end_of_Spi_Write16 410A 0 CODE 0 text1 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_t_periodo_ref 16C 0 BANK1 1 bssBANK1 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__end_of_t_agua_ad_Read 3F0A 0 CODE 0 text36 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+Spi_Write16@data 1E1 0 BANK1 1 cstackBANK1 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__CFG_FOSC$HSHP 0 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__end_of__initialization 3C32 0 CODE 0 cinit dist/default/debug\Gerenciamento_46K22.X.debug.obj
+i2___fltol@exp1 C2 0 BANK0 1 cstackBANK0 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__end_of___lwdiv 3CB4 0 CODE 0 text47 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__size_of_Spi_Write16 0 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__end_ofi2___flge 35CC 0 CODE 0 text53 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+Spi2_Write16@data 72 0 BANK0 1 cstackBANK0 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+?_Read_ADC 1 0 COMRAM 1 cstackCOMRAM dist/default/debug\Gerenciamento_46K22.X.debug.obj
+i2___fldiv@f3 A3 0 BANK0 1 cstackBANK0 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_SPI_MASTER2 41FC 0 CODE 0 text5 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__size_of___flge 0 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__end_of_Config_ADC 3FAA 0 CODE 0 text12 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+___fladd 288C 0 CODE 0 text23 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__size_of_Config_Timer0 0 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__size_of_Config_Timer1 0 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Hidata 0 0 CODE 0 idata dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__end_of___flpack 38C2 0 CODE 0 text25 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Lidata 0 0 CODE 0 idata dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__size_of_Config_Timer2 0 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Hrdata 0 0 COMRAM 1 rdata dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Lrdata 0 0 COMRAM 1 rdata dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__size_of_Config_Timer3 0 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Hidloc 200008 0 IDLOC 0 idloc dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Lidloc 200000 0 IDLOC 0 idloc dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__CFG_STVREN$OFF 0 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+___flneg 3FDE 0 CODE 0 text19 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Hstack 0 0 STACK 2 stack dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Lstack 0 0 STACK 2 stack dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__size_of_high_isr 0 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+int_func 5DC 0 CODE 0 intcode_body dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Hparam 0 0 ABS 0 param0 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_rotacao EA 0 BANK0 1 bssBANK0 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Lparam 0 0 ABS 0 param0 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_n_extra 1B4 0 BANK1 1 bssBANK1 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Hspace_0 30000E 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__HcstackCOMRAM 0 0 ABS 0 cstackCOMRAM dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Lspace_0 0 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__LcstackCOMRAM 0 0 ABS 0 cstackCOMRAM dist/default/debug\Gerenciamento_46K22.X.debug.obj
+___flpack@sign 6 0 COMRAM 1 cstackCOMRAM dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_injecao_ok 5E 0 COMRAM 1 bssCOMRAM dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__end_ofi1_MASTER_SPI_WRITE1 4254 0 CODE 0 text14 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__pcstackCOMRAM 1 0 COMRAM 1 cstackCOMRAM dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__HidataBIGRAM 0 0 ABS 0 idataBIGRAM dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__LidataBIGRAM 0 0 ABS 0 idataBIGRAM dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__pidataBIGRAM 214C 0 CODE 0 idataBIGRAM dist/default/debug\Gerenciamento_46K22.X.debug.obj
+i2___flge@ff1 84 0 BANK0 1 cstackBANK0 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+___fladd@exp1 35 0 COMRAM 1 cstackCOMRAM dist/default/debug\Gerenciamento_46K22.X.debug.obj
+i2_Spi_Write16 410A 0 CODE 0 text30 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Hspace_1 74C 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Lspace_1 0 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_Low_Isr 18 0 CODE 0 intcodelo dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_periodo E8 0 BANK0 1 bssBANK0 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__end_ofi2_MASTER_SPI_WRITE1 4248 0 CODE 0 text31 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__end_ofi2_Spi_Write16 4130 0 CODE 0 text30 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Hsmallconst 0 0 SMALLCONST 0 smallconst dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Lsmallconst 0 0 SMALLCONST 0 smallconst dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_pressao_ar 1C6 0 BANK1 1 bssBANK1 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_ref_rpm 1CA 0 BANK1 1 bssBANK1 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+___fltol 36CC 0 CODE 0 text18 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Hspace_2 0 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Lspace_2 0 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+___flmul 3262 0 CODE 0 text20 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Hnvbit 0 0 COMRAM 1 nvbit dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Lnvbit 0 0 COMRAM 1 nvbit dist/default/debug\Gerenciamento_46K22.X.debug.obj
+?___wmul 71 0 BANK0 1 cstackBANK0 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Hcinit 0 0 ABS 0 cinit dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Lcinit 0 0 ABS 0 cinit dist/default/debug\Gerenciamento_46K22.X.debug.obj
+___fldiv 339E 0 CODE 0 text22 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+i2___flpack@arg 71 0 BANK0 1 cstackBANK0 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__pcinit 3BAC 0 CODE 0 cinit dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__CFG_EBTRB$OFF 0 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_VarTest 110 0 BANK1 1 bssBANK1 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+___awdiv 38C2 0 CODE 0 text41 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__ramtop 1000 0 RAM 0 ramtop C:\Users\Rodrigo\AppData\Local\Temp\s464.obj
+__mediumconst F49E 0 MEDIUMCONST 0 mediumconst C:\Users\Rodrigo\AppData\Local\Temp\s464.obj
+___lwdiv 3C3C 0 CODE 0 text47 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_address E3 0 BANK0 1 bssBANK0 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__size_of_main 0 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__size_of___flmul 0 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+___awtofl@sign F 0 COMRAM 1 cstackCOMRAM dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Hconst 0 0 CODE 0 const dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Lconst 0 0 CODE 0 const dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__end_of_ig_refGOL FEEF 0 MEDIUMCONST 0 mediumconst dist/default/debug\Gerenciamento_46K22.X.debug.obj
+i2___awtofl 3DE8 0 CODE 0 text38 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+i2___flmul@cntr 95 0 BANK0 1 cstackBANK0 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_Battery 100 0 BANK1 1 bssBANK1 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+Read_ADC@channel 4 0 COMRAM 1 cstackCOMRAM dist/default/debug\Gerenciamento_46K22.X.debug.obj
+___fltol@exp1 A 0 COMRAM 1 cstackCOMRAM dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__CFG_PLLCFG$ON 0 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__end_of_Config_Timer0 41EC 0 CODE 0 text10 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__end_of_Config_Timer1 41DA 0 CODE 0 text9 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__end_of_Config_Timer2 422C 0 CODE 0 text8 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__end_of_Config_Timer3 414A 0 CODE 0 text7 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+i2___fldiv@cntr A7 0 BANK0 1 cstackBANK0 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_tempo_inj_temp_1 174 0 BANK1 1 bssBANK1 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+Get_Timer0@Data 75 0 BANK0 1 cstackBANK0 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_ig_tmr_disparo 1A6 0 BANK1 1 bssBANK1 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_ij_tmr_disparo 1AC 0 BANK1 1 bssBANK1 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_Spi_Write16 40E4 0 CODE 0 text1 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_ig_14_temp 124 0 BANK1 1 bssBANK1 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_ij_14_temp CF 0 BANK0 1 bssBANK0 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__end_ofi2___flmul 2C6A 0 CODE 0 text28 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__CFG_WRT0$OFF 0 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+___flpack@arg 1 0 COMRAM 1 cstackCOMRAM dist/default/debug\Gerenciamento_46K22.X.debug.obj
+Get_Timer1@Data 75 0 BANK0 1 cstackBANK0 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+i2___fladd@exp2 B7 0 BANK0 1 cstackBANK0 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_address_2 E4 0 BANK0 1 bssBANK0 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__CFG_WRT1$OFF 0 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+i2___flmul@exp 90 0 BANK0 1 cstackBANK0 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+i2___flge@ff2 88 0 BANK0 1 cstackBANK0 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__size_of___lwdiv 0 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+___fladd@exp2 34 0 COMRAM 1 cstackCOMRAM dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__HbssBANK0 0 0 ABS 0 bssBANK0 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__LbssBANK0 0 0 ABS 0 bssBANK0 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_SSP1CON1 FC6 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_SSP2CON1 F6C 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Hbank10 0 0 ABS 0 bank10 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__pbssBANK0 CB 0 BANK0 1 bssBANK0 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Lbank10 0 0 ABS 0 bank10 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Hbank11 0 0 ABS 0 bank11 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Lbank11 0 0 ABS 0 bank11 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+i2___fldiv@exp A8 0 BANK0 1 cstackBANK0 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__CFG_FCMEN$OFF 0 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Hbank12 0 0 ABS 0 bank12 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Lbank12 0 0 ABS 0 bank12 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__end_of___fladd 2A8C 0 CODE 0 text23 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Hbank13 0 0 ABS 0 bank13 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Lbank13 0 0 ABS 0 bank13 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__HbssBANK1 0 0 ABS 0 bssBANK1 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__LbssBANK1 0 0 ABS 0 bssBANK1 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+?i2___fltol B9 0 BANK0 1 cstackBANK0 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_rotacao_mlenta EC 0 BANK0 1 bssBANK0 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Hbank14 0 0 ABS 0 bank14 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__pbssBANK1 100 0 BANK1 1 bssBANK1 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Lbank14 0 0 ABS 0 bank14 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Htext10 0 0 ABS 0 text10 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Ltext10 0 0 ABS 0 text10 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Htext20 0 0 ABS 0 text20 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Ltext20 0 0 ABS 0 text20 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__ptext10 41DA 0 CODE 0 text10 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Hbank15 0 0 ABS 0 bank15 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Lbank15 0 0 ABS 0 bank15 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Htext30 0 0 ABS 0 text30 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Htext11 0 0 ABS 0 text11 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Ltext30 0 0 ABS 0 text30 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Ltext11 0 0 ABS 0 text11 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__ptext20 3262 0 CODE 0 text20 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Htext40 0 0 ABS 0 text40 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Htext21 0 0 ABS 0 text21 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Ltext40 0 0 ABS 0 text40 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Ltext21 0 0 ABS 0 text21 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__ptext11 4254 0 CODE 0 text11 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__ptext30 410A 0 CODE 0 text30 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Htext50 0 0 ABS 0 text50 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Htext31 0 0 ABS 0 text31 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Htext12 0 0 ABS 0 text12 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_soma_erro_rpm 158 0 BANK1 1 bssBANK1 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Ltext50 0 0 ABS 0 text50 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Ltext31 0 0 ABS 0 text31 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Ltext12 0 0 ABS 0 text12 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__ptext21 39A4 0 CODE 0 text21 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__ptext40 3F40 0 CODE 0 text40 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Htext41 0 0 ABS 0 text41 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Htext22 0 0 ABS 0 text22 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Ltext41 0 0 ABS 0 text41 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Ltext22 0 0 ABS 0 text22 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__ptext12 3F76 0 CODE 0 text12 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__ptext31 423A 0 CODE 0 text31 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__ptext50 417E 0 CODE 0 text50 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_ig_refGOL F49F 0 MEDIUMCONST 0 mediumconst dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Htext51 0 0 ABS 0 text51 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Htext32 0 0 ABS 0 text32 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Ltext51 0 0 ABS 0 text51 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Ltext32 0 0 ABS 0 text32 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__ptext22 339E 0 CODE 0 text22 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__ptext41 38C2 0 CODE 0 text41 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Htext42 0 0 ABS 0 text42 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Htext23 0 0 ABS 0 text23 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Ltext42 0 0 ABS 0 text42 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Ltext23 0 0 ABS 0 text23 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__end_of_SPI_MASTER1 41FC 0 CODE 0 text3 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__end_of_SPI_MASTER2 420C 0 CODE 0 text5 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__ptext32 3A5C 0 CODE 0 text32 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__ptext51 403C 0 CODE 0 text51 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_ADCON0bits FC2 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+?_Get_Timer0 71 0 BANK0 1 cstackBANK0 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Htext52 0 0 ABS 0 text52 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Htext33 0 0 ABS 0 text33 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Htext14 0 0 ABS 0 text14 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Ltext52 0 0 ABS 0 text52 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__end_of_Configure_HW 3DE8 0 CODE 0 text4 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Ltext33 0 0 ABS 0 text33 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Ltext14 0 0 ABS 0 text14 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_ADCON1bits FC1 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__ptext23 288C 0 CODE 0 text23 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__ptext42 4092 0 CODE 0 text42 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__HidataBANK1 0 0 ABS 0 idataBANK1 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__size_of___awdiv 0 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+?i2___flmul 84 0 BANK0 1 cstackBANK0 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__LidataBANK1 0 0 ABS 0 idataBANK1 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_ADCON2bits FC0 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Htext43 0 0 ABS 0 text43 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Htext24 0 0 ABS 0 text24 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Ltext43 0 0 ABS 0 text43 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Ltext24 0 0 ABS 0 text24 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__ptext14 4248 0 CODE 0 text14 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__ptext33 2F8E 0 CODE 0 text33 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__ptext52 3B10 0 CODE 0 text52 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__end_ofi2___flpack 2F8E 0 CODE 0 text39 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+MASTER_SPI_WRITE1@dados 1E0 0 BANK1 1 cstackBANK1 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+MASTER_SPI_WRITE2@dados 71 0 BANK0 1 cstackBANK0 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__pidataBANK1 425C 0 CODE 0 idataBANK1 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Htext53 0 0 ABS 0 text53 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Htext34 0 0 ABS 0 text34 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Htext15 0 0 ABS 0 text15 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Ltext53 0 0 ABS 0 text53 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Ltext34 0 0 ABS 0 text34 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Ltext15 0 0 ABS 0 text15 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__ptext24 3E48 0 CODE 0 text24 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__ptext43 3D24 0 CODE 0 text43 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Htext44 0 0 ABS 0 text44 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Htext25 0 0 ABS 0 text25 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Ltext44 0 0 ABS 0 text44 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Ltext25 0 0 ABS 0 text25 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__ptext15 4198 0 CODE 0 text15 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__ptext34 2598 0 CODE 0 text34 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__ptext53 34BC 0 CODE 0 text53 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+___inthi_sp 0 0 STACK 2 stack C:\Users\Rodrigo\AppData\Local\Temp\s464.obj
+__Htext54 0 0 ABS 0 text54 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Htext35 0 0 ABS 0 text35 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Htext16 0 0 ABS 0 text16 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Ltext54 0 0 ABS 0 text54 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Ltext35 0 0 ABS 0 text35 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Ltext16 0 0 ABS 0 text16 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__ptext25 37CA 0 CODE 0 text25 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__ptext44 414A 0 CODE 0 text44 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__end_of_Get_Timer0 403C 0 CODE 0 text46 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__end_of_Get_Timer1 4068 0 CODE 0 text51 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Htext45 0 0 ABS 0 text45 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Ltext45 0 0 ABS 0 text45 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__ptext16 4068 0 CODE 0 text16 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__ptext35 3F0A 0 CODE 0 text35 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__ptext54 3FAA 0 CODE 0 text54 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Htext36 0 0 ABS 0 text36 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Htext17 0 0 ABS 0 text17 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Ltext36 0 0 ABS 0 text36 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Ltext17 0 0 ABS 0 text17 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__ptext45 4164 0 CODE 0 text45 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_pedal_ad_Read 4198 0 CODE 0 text15 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Htext46 0 0 ABS 0 text46 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Htext27 0 0 ABS 0 text27 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_periodo_52 13C 0 BANK1 1 bssBANK1 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Ltext46 0 0 ABS 0 text46 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Ltext27 0 0 ABS 0 text27 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__CFG_BOREN$OFF 0 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+controle_rpm@_control 178 0 BANK1 1 bssBANK1 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__ptext17 1A4A 0 CODE 0 text17 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__ptext36 3ED0 0 CODE 0 text36 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_ANSELAbits F38 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Htext37 0 0 ABS 0 text37 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Htext18 0 0 ABS 0 text18 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Ltext37 0 0 ABS 0 text37 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Ltext18 0 0 ABS 0 text18 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_ANSELBbits F39 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__ptext27 3E94 0 CODE 0 text27 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__ptext46 4010 0 CODE 0 text46 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Htext47 0 0 ABS 0 text47 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Htext28 0 0 ABS 0 text28 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Ltext47 0 0 ABS 0 text47 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Ltext28 0 0 ABS 0 text28 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__ptext18 36CC 0 CODE 0 text18 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__ptext37 3CB4 0 CODE 0 text37 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__size_of_Set_Timer0 0 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__size_of_Set_Timer1 0 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__size_of_Set_Timer3 0 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+___fltol@sign1 9 0 COMRAM 1 cstackCOMRAM dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_ref_vb_max 148 0 BANK1 1 bssBANK1 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_ANSELEbits F3C 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Htext38 0 0 ABS 0 text38 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Htext19 0 0 ABS 0 text19 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Ltext38 0 0 ABS 0 text38 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Ltext19 0 0 ABS 0 text19 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__ptext28 2A8C 0 CODE 0 text28 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__ptext47 3C3C 0 CODE 0 text47 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__CFG_WDTEN$OFF 0 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Htext48 0 0 ABS 0 text48 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Htext29 0 0 ABS 0 text29 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Ltext48 0 0 ABS 0 text48 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Ltext29 0 0 ABS 0 text29 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__ptext19 3FDE 0 CODE 0 text19 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__ptext38 3DE8 0 CODE 0 text38 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+___intlo_sp 0 0 STACK 2 stack C:\Users\Rodrigo\AppData\Local\Temp\s464.obj
+__Htext39 0 0 ABS 0 text39 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Ltext39 0 0 ABS 0 text39 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__ptext29 2C6A 0 CODE 0 text29 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__ptext48 40BC 0 CODE 0 text48 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Htext49 0 0 ABS 0 text49 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Ltext49 0 0 ABS 0 text49 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__ptext39 2E10 0 CODE 0 text39 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__ptext49 41B0 0 CODE 0 text49 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+?i2___fldiv 97 0 BANK0 1 cstackBANK0 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_INTCONbits FF2 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+?_Get_Timer1 71 0 BANK0 1 cstackBANK0 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Hend_init 5DC 0 CODE 0 end_init dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Lend_init 5D8 0 CODE 0 end_init dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_Read_ADC 4068 0 CODE 0 text16 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+___flpack@exp 5 0 COMRAM 1 cstackCOMRAM dist/default/debug\Gerenciamento_46K22.X.debug.obj
+___awdiv@divisor 79 0 BANK0 1 cstackBANK0 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+___lwdiv@divisor 73 0 BANK0 1 cstackBANK0 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__end_of_Ki_rpm FFFB 0 MEDIUMCONST 0 mediumconst dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__end_of_Kp_inj FFFF 0 MEDIUMCONST 0 mediumconst dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__end_of_map_ad_Read 3D24 0 CODE 0 text37 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__size_of___fladd 0 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__HdataBIGRAM 0 0 ABS 0 dataBIGRAM dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__LdataBIGRAM 0 0 ABS 0 dataBIGRAM dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__pdataBIGRAM 300 0 BIGRAM 1 dataBIGRAM dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__CFG_CP0$OFF 0 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__smallconst 0 0 SMALLCONST 0 smallconst C:\Users\Rodrigo\AppData\Local\Temp\s464.obj
+_controle_rpm 1A4A 0 CODE 0 text17 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__CFG_CP1$OFF 0 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__size_of___wmul 0 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Hreset_vec 6 0 CODE 0 reset_vec dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Lreset_vec 0 0 CODE 0 reset_vec dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__HidataBANK2 0 0 ABS 0 idataBANK2 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__LidataBANK2 0 0 ABS 0 idataBANK2 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__pidataBANK2 35CC 0 CODE 0 idataBANK2 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_rotacao_temp 14C 0 BANK1 1 bssBANK1 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__end_of_SPI_MASTER1_Chip 421C 0 CODE 0 text6 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__end_of_ij_ref FFF7 0 MEDIUMCONST 0 mediumconst dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__accesstop 60 0 ABS 0 - C:\Users\Rodrigo\AppData\Local\Temp\s464.obj
+__Hparam0 0 0 ABS 0 param0 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Lparam0 0 0 ABS 0 param0 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Hintcode_body 0 0 ABS 0 intcode_body dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__Lintcode_body 0 0 ABS 0 intcode_body dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__pintcode_body 5DC 0 CODE 0 intcode_body dist/default/debug\Gerenciamento_46K22.X.debug.obj
+intlevel0 0 0 CODE 0 text C:\Users\Rodrigo\AppData\Local\Temp\s464.obj
+_SSP1STAT FC7 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+intlevel1 0 0 CODE 0 text C:\Users\Rodrigo\AppData\Local\Temp\s464.obj
+_SSP2STAT F6D 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__CFG_WRTB$OFF 0 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+intlevel2 0 0 CODE 0 text C:\Users\Rodrigo\AppData\Local\Temp\s464.obj
+_ATUALref_vb 1E8 0 BANK1 1 dataBANK1 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__end_of___awtofl 3E94 0 CODE 0 text24 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+intlevel3 0 0 CODE 0 text C:\Users\Rodrigo\AppData\Local\Temp\s464.obj
+__end_of_MASTER_SPI_WRITE1 423A 0 CODE 0 text2 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__CFG_WRTC$OFF 0 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__size_of_map_ad_Read 0 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__end_of_Set_Timer0 417E 0 CODE 0 text45 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__end_of_Set_Timer1 4198 0 CODE 0 text50 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__end_of_Set_Timer3 4164 0 CODE 0 text44 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_Config_Timer0 41DA 0 CODE 0 text10 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__end_of_MASTER_SPI_WRITE2 41C6 0 CODE 0 text49 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__CFG_WRTD$OFF 0 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_t_ar_ad_Read 3A5C 0 CODE 0 text32 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+i2___awtofl@c 7F 0 BANK0 1 cstackBANK0 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__size_of___flpack 0 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__size_of_Battery_ad_Read 0 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__size_of___fltol 0 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__CFG_CPB$OFF 0 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__end_of___wmul 3F76 0 CODE 0 text40 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__CFG_CPD$OFF 0 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+start_initialization 3BAC 0 CODE 0 cinit dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__end_of_t_ar_ad_Read 3B10 0 CODE 0 text32 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+___awdiv@quotient 7D 0 BANK0 1 cstackBANK0 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+___lwdiv@quotient 75 0 BANK0 1 cstackBANK0 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_Configure_HW 3D88 0 CODE 0 text4 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_ref_vb_base 144 0 BANK1 1 bssBANK1 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_MASTER_SPI_WRITE1 422C 0 CODE 0 text2 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_MASTER_SPI_WRITE2 41B0 0 CODE 0 text49 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__end_of_Spi2_Write16 40E4 0 CODE 0 text48 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__CFG_IESO$OFF 0 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+i2___flmul@f3_as_product 91 0 BANK0 1 cstackBANK0 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_VoltBattery E2 0 BANK0 1 bssBANK0 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+?i2___flpack 71 0 BANK0 1 cstackBANK0 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_counter_peralta 194 0 BANK1 1 bssBANK1 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__size_of___flneg 0 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__end_of_Config_Int_Ext0 425C 0 CODE 0 text11 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__size_of_pedal_ad_Read 0 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__initialization 3BAC 0 CODE 0 cinit dist/default/debug\Gerenciamento_46K22.X.debug.obj
+i2___fltol@sign1 C1 0 BANK0 1 cstackBANK0 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+___awtofl@c B 0 COMRAM 1 cstackCOMRAM dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__activetblptr 2 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+___lwtofl@c 7B 0 BANK0 1 cstackBANK0 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+___wmul@product 75 0 BANK0 1 cstackBANK0 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__size_of_Spi2_Write16 0 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__CFG_LVP$OFF 0 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+__size_of_MASTER_SPI_WRITE1 0 0 ABS 0 - dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_Battery_ad_Read 3B10 0 CODE 0 text52 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+_ij_14_extra 12C 0 BANK1 1 bssBANK1 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+___awdiv@dividend 77 0 BANK0 1 cstackBANK0 dist/default/debug\Gerenciamento_46K22.X.debug.obj
+# %SPLITSTAB Section
+# This section enumerates all the psect splits performed by the assembler.
+# The beginning of the section is indicated by %SPLITSTAB.
+# Each line is a record a particular split, where the parent psect in on
+# the left and the child on the right.  Note that a child psect is always
+# split form the top of the parent psect. All splits from a given parent
+# are listed in the order in which they occurred.
+%SPLITSTAB
+# %DABS Section
+# This section contains a table of all usuage of the assember
+# directive DABS in the program. Each line has the following format:
+#   <name> <space> <address> <size>
+# If the DABS was originally labelled then that shall be <name>,
+# otherwise name will be "-".  The <space> number is in decimal.
+# <address> and <size> are in byte units as unqaulified hexadecimal
+%DABS
+# %SEGMENTS Section
+# This sections enumerates the segments of the program.  Each segment
+# is described on a single line as follows:
+#    <name> <space> <link address> <file address> <size> <delta>
+# Addresses and size are in unqualified hexadecimal.  The link address
+# and size are in units of delta. The file address is in units of bytes.
+# All other numeric quantities are in decimal.
+%SEGMENTS
+reset_vec 0 0 0 6 1
+intcode 0 8 8 10 1
+intcodelo 0 18 18 4248 1
+mediumconst 0 F49E F49E B62 1
+config 0 300000 300000 E 1
+idloc 0 200000 200000 8 1
+cstackCOMRAM 1 1 1 5F 1
+cstackBANK0 1 60 60 8E 1
+dataBANK2 1 200 200 100 1
+bssBANK1 1 100 100 EA 1
+dataBIGRAM 1 300 300 44C 1

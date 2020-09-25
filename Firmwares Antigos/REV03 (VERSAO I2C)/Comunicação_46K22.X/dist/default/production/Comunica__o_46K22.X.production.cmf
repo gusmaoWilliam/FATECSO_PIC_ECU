@@ -1,0 +1,1164 @@
+%CMF
+# %PSECTS Section
+# For each object file, details of its psects are enumerated here.
+# The begining of the section is indicated by %PSECTS.  The first
+# line indicates the name of the first object file, e.g.
+#    $foo.obj
+# Each line that follows describes a psect in that object file, until
+# the next object file.  The lines that describe a psect have the
+# format:
+#    <psect name> <class name> <space> <link address> <load addresses> <length> <delta>
+# All addresses and the length are given in unqualified hexadecimal
+# in delta units.  Any other numeric values are decimal.
+%PSECTS
+$dist/default/production\Comunica__o_46K22.X.production.obj
+cinit CODE 0 C6A C6A 56 1
+text0 CODE 0 498 498 24C 1
+text1 CODE 0 D3A D3A 24 1
+text2 CODE 0 6E4 6E4 144 1
+text3 CODE 0 828 828 F4 1
+text4 CODE 0 A0A A0A E6 1
+text5 CODE 0 248 248 250 1
+text6 CODE 0 BBC BBC AE 1
+text7 CODE 0 E00 E00 A 1
+text8 CODE 0 DB2 DB2 16 1
+text9 CODE 0 DC8 DC8 14 1
+text10 CODE 0 D7E D7E 1A 1
+text11 CODE 0 D0E D0E 2C 1
+text12 CODE 0 CC0 CC0 4E 1
+text13 CODE 0 D5E D5E 20 1
+text14 CODE 0 91C 91C EE 1
+text15 CODE 0 AF0 AF0 CC 1
+text16 CODE 0 D98 D98 1A 1
+text17 CODE 0 DDC DDC 12 1
+text18 CODE 0 DEE DEE 12 1
+text20 CODE 0 E0A E0A A 1
+cstackCOMRAM COMRAM 1 1 1 3E 1
+cstackBANK0 BANK0 1 E7 E7 12 1
+cstackBANK1 BANK1 1 148 148 6 1
+temp COMRAM 1 4F 4F 1 1
+bitbssCOMRAM COMRAM 1 268 4D 9 1
+bssBANK0 BANK0 1 60 60 87 1
+bssBANK1 BANK1 1 100 100 48 1
+intcode CODE 0 8 8 23C 1
+idataBANK0 CODE 0 E14 E14 4 1
+dataBANK0 BANK0 1 F9 F9 4 1
+bssCOMRAM COMRAM 1 3F 3F E 1
+$C:\Users\willi\AppData\Local\Temp\s9es.obj
+idloc IDLOC 0 200000 200000 8 1
+init CODE 0 244 244 4 1
+reset_vec CODE 0 0 0 4 1
+config CONFIG 0 300000 300000 E 1
+# %UNUSED Section
+# This section enumerates the unused ranges of each CLASS. Each entry
+# is described on a single line as follows:
+#    <class name> <range> <delta>
+# Addresses given in the range are in hexadecimal and units of delta.
+%UNUSED
+RAM FD-FF 1
+RAM 14E-F37 1
+SFR F38-FFF 1
+BANK0 FD-FF 1
+BANK1 14E-1FF 1
+BANK2 200-2FF 1
+BANK3 300-3FF 1
+BANK4 400-4FF 1
+BANK5 500-5FF 1
+BANK6 600-6FF 1
+BANK7 700-7FF 1
+BANK8 800-8FF 1
+BANK9 900-9FF 1
+CONST 4-7 1
+CONST E18-FFFF 1
+STACK 14E-F37 1
+SMALLCONST 1000-FFFF 1
+CODE 4-7 1
+CODE E18-FFFF 1
+BANK10 A00-AFF 1
+BANK11 B00-BFF 1
+BANK12 C00-CFF 1
+BANK13 D00-DFF 1
+BANK14 E00-EFF 1
+BANK15 F00-F37 1
+BIGRAM 50-5F 1
+BIGRAM FD-FF 1
+BIGRAM 14E-F37 1
+COMRAM 50-5F 1
+EEDATA F00000-F003FF 1
+MEDIUMCONST 1000-FFFF 1
+# %LINETAB Section
+# This section enumerates the file/line to address mappings.
+# The beginning of the section is indicated by %LINETAB.
+# The first line indicates the name of the first object file, e.g.
+#   $foo.obj
+# Each line that follows describes a single mapping until the next
+# object file.  Mappings have the following format:
+#    <address> <psect name> <class name> ><line number>:<file name>
+# The address is absolute and given given in unqualified hex 
+# in delta units of the psect. All mappings within an object file
+# are in ascending order of addresses.
+# All other numeric values are in decimal.
+%LINETAB
+$dist/default/production\Comunica__o_46K22.X.production.obj
+8 intcode CODE >291:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\TIMERS_XC8.c
+8 intcode CODE >187:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+42 intcode CODE >190:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+4A intcode CODE >192:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+4C intcode CODE >193:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+4E intcode CODE >194:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+56 intcode CODE >196:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+5A intcode CODE >197:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+5C intcode CODE >198:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+5E intcode CODE >199:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+60 intcode CODE >200:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+60 intcode CODE >201:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+64 intcode CODE >203:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+68 intcode CODE >204:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+6E intcode CODE >205:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+6E intcode CODE >207:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+72 intcode CODE >208:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+86 intcode CODE >209:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+88 intcode CODE >211:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+92 intcode CODE >213:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+94 intcode CODE >214:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+98 intcode CODE >215:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+9A intcode CODE >216:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+9C intcode CODE >217:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+A2 intcode CODE >219:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+AA intcode CODE >220:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+B2 intcode CODE >221:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+BA intcode CODE >222:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+C2 intcode CODE >223:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+CA intcode CODE >224:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+D2 intcode CODE >225:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+DA intcode CODE >226:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+E2 intcode CODE >227:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+EA intcode CODE >229:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+F2 intcode CODE >230:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+FA intcode CODE >233:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+102 intcode CODE >237:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+10A intcode CODE >238:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+112 intcode CODE >239:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+11E intcode CODE >240:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+126 intcode CODE >241:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+12E intcode CODE >242:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+132 intcode CODE >246:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+13C intcode CODE >248:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+13E intcode CODE >249:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+140 intcode CODE >250:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+142 intcode CODE >251:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+146 intcode CODE >252:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+14A intcode CODE >255:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+14C intcode CODE >257:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+150 intcode CODE >259:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+154 intcode CODE >261:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+158 intcode CODE >262:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+16C intcode CODE >263:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+16E intcode CODE >264:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+174 intcode CODE >265:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+178 intcode CODE >267:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+17C intcode CODE >269:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+180 intcode CODE >270:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+194 intcode CODE >271:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+196 intcode CODE >272:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+19C intcode CODE >274:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+1A0 intcode CODE >278:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+1A2 intcode CODE >279:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+1A4 intcode CODE >282:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+1A8 intcode CODE >284:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+1AA intcode CODE >285:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+1AC intcode CODE >287:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+1B4 intcode CODE >289:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+1B6 intcode CODE >290:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+1B8 intcode CODE >291:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+1BA intcode CODE >292:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+1BA intcode CODE >294:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+1BE intcode CODE >295:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+1C2 intcode CODE >296:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+1C4 intcode CODE >299:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+1C6 intcode CODE >339:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+1CC intcode CODE >340:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+1CE intcode CODE >341:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+1DA intcode CODE >343:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+1E0 intcode CODE >344:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+1E6 intcode CODE >345:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+1EC intcode CODE >347:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+1FC intcode CODE >349:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+1FE intcode CODE >350:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+208 intcode CODE >354:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+E0A text20 CODE >72:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\TIMERS_XC8.c
+E0A text20 CODE >74:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\TIMERS_XC8.c
+E0E text20 CODE >75:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\TIMERS_XC8.c
+E12 text20 CODE >76:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\TIMERS_XC8.c
+DEE text18 CODE >265:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\TIMERS_XC8.c
+DEE text18 CODE >267:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\TIMERS_XC8.c
+DF0 text18 CODE >268:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\TIMERS_XC8.c
+DF2 text18 CODE >269:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\TIMERS_XC8.c
+DF4 text18 CODE >280:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\TIMERS_XC8.c
+DF6 text18 CODE >284:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\TIMERS_XC8.c
+DF8 text18 CODE >285:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\TIMERS_XC8.c
+DFA text18 CODE >286:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\TIMERS_XC8.c
+DFC text18 CODE >288:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\TIMERS_XC8.c
+DFE text18 CODE >291:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\TIMERS_XC8.c
+DDC text17 CODE >14:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\TIMERS_XC8.c
+DDC text17 CODE >16:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\TIMERS_XC8.c
+DDE text17 CODE >24:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\TIMERS_XC8.c
+DE0 text17 CODE >25:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\TIMERS_XC8.c
+DE2 text17 CODE >27:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\TIMERS_XC8.c
+DE4 text17 CODE >28:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\TIMERS_XC8.c
+DE8 text17 CODE >29:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\TIMERS_XC8.c
+DEA text17 CODE >32:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\TIMERS_XC8.c
+DEC text17 CODE >33:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\TIMERS_XC8.c
+D98 text16 CODE >50:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\TIMERS_XC8.c
+D98 text16 CODE >52:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\TIMERS_XC8.c
+D9A text16 CODE >60:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\TIMERS_XC8.c
+D9C text16 CODE >61:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\TIMERS_XC8.c
+D9E text16 CODE >63:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\TIMERS_XC8.c
+DA0 text16 CODE >64:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\TIMERS_XC8.c
+DA4 text16 CODE >65:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\TIMERS_XC8.c
+DA6 text16 CODE >66:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\TIMERS_XC8.c
+DAA text16 CODE >67:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\TIMERS_XC8.c
+DAE text16 CODE >69:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\TIMERS_XC8.c
+DB0 text16 CODE >70:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\TIMERS_XC8.c
+AF0 text15 CODE >8:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\aldiv.c
+AF0 text15 CODE >14:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\aldiv.c
+AF4 text15 CODE >15:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\aldiv.c
+AF8 text15 CODE >16:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\aldiv.c
+B08 text15 CODE >17:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\aldiv.c
+B0C text15 CODE >19:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\aldiv.c
+B10 text15 CODE >20:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\aldiv.c
+B20 text15 CODE >21:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\aldiv.c
+B24 text15 CODE >23:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\aldiv.c
+B34 text15 CODE >24:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\aldiv.c
+B40 text15 CODE >25:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\aldiv.c
+B44 text15 CODE >26:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\aldiv.c
+B46 text15 CODE >27:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\aldiv.c
+B50 text15 CODE >28:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\aldiv.c
+B52 text15 CODE >26:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\aldiv.c
+B56 text15 CODE >31:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\aldiv.c
+B60 text15 CODE >32:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\aldiv.c
+B74 text15 CODE >33:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\aldiv.c
+B84 text15 CODE >34:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\aldiv.c
+B86 text15 CODE >36:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\aldiv.c
+B90 text15 CODE >37:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\aldiv.c
+B94 text15 CODE >39:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\aldiv.c
+B9A text15 CODE >40:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\aldiv.c
+BAA text15 CODE >41:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\aldiv.c
+91C text14 CODE >6:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\RS232_K22.c
+91C text14 CODE >9:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\RS232_K22.c
+91E text14 CODE >10:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\RS232_K22.c
+920 text14 CODE >11:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\RS232_K22.c
+924 text14 CODE >13:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\RS232_K22.c
+92C text14 CODE >15:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\RS232_K22.c
+930 text14 CODE >16:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\RS232_K22.c
+992 text14 CODE >20:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\RS232_K22.c
+996 text14 CODE >21:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\RS232_K22.c
+9FE text14 CODE >27:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\RS232_K22.c
+A00 text14 CODE >28:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\RS232_K22.c
+A04 text14 CODE >29:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\RS232_K22.c
+A06 text14 CODE >30:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\RS232_K22.c
+A08 text14 CODE >31:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\RS232_K22.c
+D5E text13 CODE >392:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+D5E text13 CODE >394:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+D64 text13 CODE >395:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+D6A text13 CODE >396:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+D70 text13 CODE >397:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+D76 text13 CODE >398:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+D7C text13 CODE >399:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+CC0 text12 CODE >401:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+CC0 text12 CODE >403:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+CC4 text12 CODE >404:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+CC6 text12 CODE >405:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+CC8 text12 CODE >406:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+CCA text12 CODE >407:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+CCC text12 CODE >408:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+CCE text12 CODE >409:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+CD0 text12 CODE >410:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+CD2 text12 CODE >411:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+CD4 text12 CODE >412:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+CD8 text12 CODE >413:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+CDA text12 CODE >414:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+CDC text12 CODE >415:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+CDE text12 CODE >416:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+CE0 text12 CODE >417:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+CE2 text12 CODE >418:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+CE4 text12 CODE >419:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+CE6 text12 CODE >420:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+CE8 text12 CODE >422:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+D04 text12 CODE >425:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+D08 text12 CODE >426:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+D0C text12 CODE >431:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+D0E text11 CODE >21:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\ConfigI2c.c
+D10 text11 CODE >24:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\ConfigI2c.c
+D16 text11 CODE >26:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\ConfigI2c.c
+D18 text11 CODE >27:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\ConfigI2c.c
+D1A text11 CODE >28:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\ConfigI2c.c
+D1C text11 CODE >30:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\ConfigI2c.c
+D20 text11 CODE >31:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\ConfigI2c.c
+D24 text11 CODE >32:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\ConfigI2c.c
+D28 text11 CODE >33:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\ConfigI2c.c
+D2C text11 CODE >35:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\ConfigI2c.c
+D2E text11 CODE >36:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\ConfigI2c.c
+D30 text11 CODE >37:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\ConfigI2c.c
+D32 text11 CODE >38:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\ConfigI2c.c
+D34 text11 CODE >39:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\ConfigI2c.c
+D36 text11 CODE >40:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\ConfigI2c.c
+D38 text11 CODE >41:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\ConfigI2c.c
+D7E text10 CODE >356:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+D80 text10 CODE >358:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+DC8 text9 CODE >72:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\RS232_K22.c
+DCA text9 CODE >75:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\RS232_K22.c
+DCE text9 CODE >76:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\RS232_K22.c
+DD2 text9 CODE >77:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\RS232_K22.c
+DDA text9 CODE >79:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\RS232_K22.c
+DB2 text8 CODE >32:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\RS232_K22.c
+DB2 text8 CODE >36:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\RS232_K22.c
+DB6 text8 CODE >37:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\RS232_K22.c
+DBA text8 CODE >40:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\RS232_K22.c
+DC0 text8 CODE >43:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\RS232_K22.c
+DC6 text8 CODE >44:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\RS232_K22.c
+E00 text7 CODE >72:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\TIMERS_XC8.c
+E00 text7 CODE >74:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\TIMERS_XC8.c
+E04 text7 CODE >75:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\TIMERS_XC8.c
+E08 text7 CODE >76:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\TIMERS_XC8.c
+BBC text6 CODE >62:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\float.c
+BBC text6 CODE >64:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\float.c
+BCC text6 CODE >65:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\float.c
+BDA text6 CODE >67:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\float.c
+BDC text6 CODE >68:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\float.c
+BE4 text6 CODE >66:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\float.c
+C02 text6 CODE >71:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\float.c
+C04 text6 CODE >72:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\float.c
+C10 text6 CODE >73:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\float.c
+C18 text6 CODE >70:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\float.c
+C36 text6 CODE >76:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\float.c
+C38 text6 CODE >77:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\float.c
+C40 text6 CODE >75:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\float.c
+C4A text6 CODE >79:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\float.c
+C4C text6 CODE >80:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\float.c
+C4E text6 CODE >81:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\float.c
+C52 text6 CODE >82:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\float.c
+C56 text6 CODE >83:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\float.c
+C5A text6 CODE >84:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\float.c
+C5C text6 CODE >85:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\float.c
+248 text5 CODE >86:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\ftadd.c
+248 text5 CODE >90:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\ftadd.c
+260 text5 CODE >91:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\ftadd.c
+278 text5 CODE >92:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\ftadd.c
+2A0 text5 CODE >93:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\ftadd.c
+2AE text5 CODE >94:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\ftadd.c
+2D6 text5 CODE >95:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\ftadd.c
+2E4 text5 CODE >96:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\ftadd.c
+2EA text5 CODE >97:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\ftadd.c
+2F0 text5 CODE >98:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\ftadd.c
+2F4 text5 CODE >99:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\ftadd.c
+2FA text5 CODE >100:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\ftadd.c
+2FE text5 CODE >101:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\ftadd.c
+302 text5 CODE >102:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\ftadd.c
+314 text5 CODE >103:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\ftadd.c
+318 text5 CODE >104:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\ftadd.c
+32A text5 CODE >106:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\ftadd.c
+336 text5 CODE >110:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\ftadd.c
+340 text5 CODE >111:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\ftadd.c
+344 text5 CODE >112:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\ftadd.c
+362 text5 CODE >114:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\ftadd.c
+36C text5 CODE >115:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\ftadd.c
+370 text5 CODE >113:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\ftadd.c
+37E text5 CODE >117:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\ftadd.c
+38A text5 CODE >121:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\ftadd.c
+394 text5 CODE >122:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\ftadd.c
+398 text5 CODE >123:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\ftadd.c
+3B6 text5 CODE >125:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\ftadd.c
+3C0 text5 CODE >126:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\ftadd.c
+3C4 text5 CODE >124:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\ftadd.c
+3D0 text5 CODE >129:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\ftadd.c
+3D6 text5 CODE >131:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\ftadd.c
+3E8 text5 CODE >132:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\ftadd.c
+3FA text5 CODE >133:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\ftadd.c
+3FA text5 CODE >134:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\ftadd.c
+400 text5 CODE >136:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\ftadd.c
+412 text5 CODE >137:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\ftadd.c
+424 text5 CODE >139:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\ftadd.c
+42A text5 CODE >140:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\ftadd.c
+442 text5 CODE >141:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\ftadd.c
+448 text5 CODE >142:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\ftadd.c
+45A text5 CODE >143:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\ftadd.c
+46C text5 CODE >144:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\ftadd.c
+472 text5 CODE >146:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\ftadd.c
+A0A text4 CODE >54:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\ftdiv.c
+A0A text4 CODE >63:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\ftdiv.c
+A24 text4 CODE >64:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\ftdiv.c
+A32 text4 CODE >65:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\ftdiv.c
+A4C text4 CODE >66:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\ftdiv.c
+A5A text4 CODE >67:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\ftdiv.c
+A66 text4 CODE >68:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\ftdiv.c
+A6C text4 CODE >69:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\ftdiv.c
+A70 text4 CODE >70:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\ftdiv.c
+A74 text4 CODE >71:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\ftdiv.c
+A78 text4 CODE >72:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\ftdiv.c
+A7A text4 CODE >73:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\ftdiv.c
+A86 text4 CODE >74:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\ftdiv.c
+A88 text4 CODE >75:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\ftdiv.c
+A94 text4 CODE >76:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\ftdiv.c
+A98 text4 CODE >78:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\ftdiv.c
+AA0 text4 CODE >79:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\ftdiv.c
+AB0 text4 CODE >80:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\ftdiv.c
+ABC text4 CODE >81:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\ftdiv.c
+ABE text4 CODE >82:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\ftdiv.c
+ABE text4 CODE >83:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\ftdiv.c
+AC6 text4 CODE >84:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\ftdiv.c
+ACA text4 CODE >85:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\ftdiv.c
+828 text3 CODE >62:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\ftmul.c
+828 text3 CODE >67:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\ftmul.c
+842 text3 CODE >68:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\ftmul.c
+850 text3 CODE >69:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\ftmul.c
+86A text3 CODE >70:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\ftmul.c
+878 text3 CODE >71:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\ftmul.c
+87E text3 CODE >72:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\ftmul.c
+882 text3 CODE >73:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\ftmul.c
+886 text3 CODE >74:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\ftmul.c
+88A text3 CODE >75:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\ftmul.c
+88C text3 CODE >77:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\ftmul.c
+88E text3 CODE >78:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\ftmul.c
+89A text3 CODE >79:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\ftmul.c
+8A6 text3 CODE >134:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\ftmul.c
+8AA text3 CODE >136:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\ftmul.c
+8AE text3 CODE >137:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\ftmul.c
+8BA text3 CODE >138:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\ftmul.c
+8C2 text3 CODE >139:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\ftmul.c
+8CA text3 CODE >140:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\ftmul.c
+8CE text3 CODE >143:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\ftmul.c
+8D2 text3 CODE >145:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\ftmul.c
+8D6 text3 CODE >146:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\ftmul.c
+8E2 text3 CODE >147:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\ftmul.c
+8EA text3 CODE >148:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\ftmul.c
+8F2 text3 CODE >149:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\ftmul.c
+8F6 text3 CODE >156:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\ftmul.c
+6E4 text2 CODE >44:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\fttol.c
+6E4 text2 CODE >49:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\fttol.c
+70A text2 CODE >50:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\fttol.c
+71E text2 CODE >51:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\fttol.c
+752 text2 CODE >52:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\fttol.c
+756 text2 CODE >53:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\fttol.c
+768 text2 CODE >54:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\fttol.c
+784 text2 CODE >55:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\fttol.c
+78A text2 CODE >56:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\fttol.c
+790 text2 CODE >57:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\fttol.c
+79C text2 CODE >58:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\fttol.c
+7B0 text2 CODE >60:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\fttol.c
+7BC text2 CODE >61:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\fttol.c
+7C2 text2 CODE >62:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\fttol.c
+7C4 text2 CODE >63:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\fttol.c
+7CC text2 CODE >64:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\fttol.c
+7E0 text2 CODE >66:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\fttol.c
+7EC text2 CODE >67:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\fttol.c
+7F0 text2 CODE >65:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\fttol.c
+7FA text2 CODE >70:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\fttol.c
+804 text2 CODE >71:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\fttol.c
+816 text2 CODE >72:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\fttol.c
+D3A text1 CODE >28:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\lwtoft.c
+D3A text1 CODE >30:C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\lwtoft.c
+498 text0 CODE >500:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+498 text0 CODE >502:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+49C text0 CODE >503:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+4AA text0 CODE >505:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+4AC text0 CODE >506:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+4AE text0 CODE >509:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+4B0 text0 CODE >510:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+4B2 text0 CODE >512:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+4B6 text0 CODE >514:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+4C2 text0 CODE >516:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+4C4 text0 CODE >517:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+4C6 text0 CODE >518:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+4C8 text0 CODE >519:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+4CA text0 CODE >520:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+4CC text0 CODE >525:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+4D2 text0 CODE >530:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+4DA text0 CODE >532:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+4E4 text0 CODE >539:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+4EA text0 CODE >540:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+4F0 text0 CODE >541:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+4F6 text0 CODE >543:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+4F8 text0 CODE >547:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+520 text0 CODE >550:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+52C text0 CODE >551:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+538 text0 CODE >552:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+544 text0 CODE >553:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+54A text0 CODE >554:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+550 text0 CODE >555:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+556 text0 CODE >559:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+562 text0 CODE >638:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+564 text0 CODE >642:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+570 text0 CODE >644:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+57C text0 CODE >645:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+582 text0 CODE >646:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+588 text0 CODE >647:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+58E text0 CODE >648:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+594 text0 CODE >649:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+5A0 text0 CODE >651:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+5A2 text0 CODE >655:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+5AE text0 CODE >656:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+5BA text0 CODE >659:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+5BC text0 CODE >663:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+5C8 text0 CODE >664:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+5D2 text0 CODE >665:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+5DE text0 CODE >669:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+5E0 text0 CODE >534:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+600 text0 CODE >675:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+604 text0 CODE >678:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+614 text0 CODE >680:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+61E text0 CODE >681:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+638 text0 CODE >686:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+640 text0 CODE >688:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+654 text0 CODE >691:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+664 text0 CODE >698:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+6E2 text0 CODE >527:C:\Users\willi\Desktop\exlcuir\REV03 (VERSAO I2C)\Comunicação_46K22.X\main.c
+C6A cinit CODE >5436:C:\Users\willi\AppData\Local\Temp\s9es.
+C6A cinit CODE >5438:C:\Users\willi\AppData\Local\Temp\s9es.
+C6A cinit CODE >5441:C:\Users\willi\AppData\Local\Temp\s9es.
+C6A cinit CODE >5752:C:\Users\willi\AppData\Local\Temp\s9es.
+C6C cinit CODE >5753:C:\Users\willi\AppData\Local\Temp\s9es.
+C6E cinit CODE >5754:C:\Users\willi\AppData\Local\Temp\s9es.
+C70 cinit CODE >5755:C:\Users\willi\AppData\Local\Temp\s9es.
+C72 cinit CODE >5756:C:\Users\willi\AppData\Local\Temp\s9es.
+C74 cinit CODE >5757:C:\Users\willi\AppData\Local\Temp\s9es.
+C76 cinit CODE >5758:C:\Users\willi\AppData\Local\Temp\s9es.
+C7A cinit CODE >5759:C:\Users\willi\AppData\Local\Temp\s9es.
+C7E cinit CODE >5760:C:\Users\willi\AppData\Local\Temp\s9es.
+C7E cinit CODE >5761:C:\Users\willi\AppData\Local\Temp\s9es.
+C80 cinit CODE >5762:C:\Users\willi\AppData\Local\Temp\s9es.
+C84 cinit CODE >5763:C:\Users\willi\AppData\Local\Temp\s9es.
+C86 cinit CODE >5764:C:\Users\willi\AppData\Local\Temp\s9es.
+C88 cinit CODE >5765:C:\Users\willi\AppData\Local\Temp\s9es.
+C8A cinit CODE >5769:C:\Users\willi\AppData\Local\Temp\s9es.
+C8E cinit CODE >5770:C:\Users\willi\AppData\Local\Temp\s9es.
+C90 cinit CODE >5771:C:\Users\willi\AppData\Local\Temp\s9es.
+C90 cinit CODE >5772:C:\Users\willi\AppData\Local\Temp\s9es.
+C92 cinit CODE >5773:C:\Users\willi\AppData\Local\Temp\s9es.
+C94 cinit CODE >5774:C:\Users\willi\AppData\Local\Temp\s9es.
+C96 cinit CODE >5777:C:\Users\willi\AppData\Local\Temp\s9es.
+C9A cinit CODE >5778:C:\Users\willi\AppData\Local\Temp\s9es.
+C9C cinit CODE >5779:C:\Users\willi\AppData\Local\Temp\s9es.
+C9C cinit CODE >5780:C:\Users\willi\AppData\Local\Temp\s9es.
+C9E cinit CODE >5781:C:\Users\willi\AppData\Local\Temp\s9es.
+CA0 cinit CODE >5782:C:\Users\willi\AppData\Local\Temp\s9es.
+CA2 cinit CODE >5785:C:\Users\willi\AppData\Local\Temp\s9es.
+CA4 cinit CODE >5786:C:\Users\willi\AppData\Local\Temp\s9es.
+CA6 cinit CODE >5789:C:\Users\willi\AppData\Local\Temp\s9es.
+CAA cinit CODE >5790:C:\Users\willi\AppData\Local\Temp\s9es.
+CAC cinit CODE >5791:C:\Users\willi\AppData\Local\Temp\s9es.
+CAC cinit CODE >5792:C:\Users\willi\AppData\Local\Temp\s9es.
+CAE cinit CODE >5793:C:\Users\willi\AppData\Local\Temp\s9es.
+CB0 cinit CODE >5794:C:\Users\willi\AppData\Local\Temp\s9es.
+CB2 cinit CODE >5800:C:\Users\willi\AppData\Local\Temp\s9es.
+CB2 cinit CODE >5802:C:\Users\willi\AppData\Local\Temp\s9es.
+CB4 cinit CODE >5803:C:\Users\willi\AppData\Local\Temp\s9es.
+CB6 cinit CODE >5805:C:\Users\willi\AppData\Local\Temp\s9es.
+CB8 cinit CODE >5806:C:\Users\willi\AppData\Local\Temp\s9es.
+CBA cinit CODE >5807:C:\Users\willi\AppData\Local\Temp\s9es.
+CBC cinit CODE >5808:C:\Users\willi\AppData\Local\Temp\s9es.
+# %SYMTAB Section
+# An enumeration of all symbols in the program.
+# The beginning of the section is indicated by %SYMTAB.
+# Each line describes a single symbol as follows:
+#    <label> <value> [-]<load-adj> <class> <space> <psect> <file-name>
+# The value and load-adj are both in unqualified hexadecimal.
+# All other numeric values are in decimal.  The load-adj is the
+# quantity one needs to add to the symbol value in order to obtain the load
+# address of the symbol.  This value may be signed. If the symbol
+# was defined in a psect then <psect> will be "-". File-name
+# is the name of the object file in which the symbol was defined.
+%SYMTAB
+_i 9E 0 BANK0 1 bssBANK0 dist/default/production\Comunica__o_46K22.X.production.obj
+__LdataBANK0 0 0 ABS 0 dataBANK0 dist/default/production\Comunica__o_46K22.X.production.obj
+__Lmediumconst 0 0 MEDIUMCONST 0 mediumconst dist/default/production\Comunica__o_46K22.X.production.obj
+__Hspace_0 30000E 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+__Hspace_1 271 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+__Hspace_2 0 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+__CFG_IESO$OFF 0 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+_final_i2c_admissao 269 -21B COMRAM 1 bitbssCOMRAM dist/default/production\Comunica__o_46K22.X.production.obj
+Init1_RS232@velocity 1F 0 COMRAM 1 cstackCOMRAM dist/default/production\Comunica__o_46K22.X.production.obj
+__HidataBANK0 0 0 ABS 0 idataBANK0 dist/default/production\Comunica__o_46K22.X.production.obj
+_SSP1STATbits FC7 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+___ftdiv@exp 38 0 COMRAM 1 cstackCOMRAM dist/default/production\Comunica__o_46K22.X.production.obj
+__Hibigdata 0 0 CODE 0 ibigdata dist/default/production\Comunica__o_46K22.X.production.obj
+__mediumconst 0 0 MEDIUMCONST 0 mediumconst C:\Users\willi\AppData\Local\Temp\s9es.obj
+__Heeprom_data 0 0 EEDATA 0 eeprom_data dist/default/production\Comunica__o_46K22.X.production.obj
+_T1CONbits FCD 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+_VB B0 0 BANK0 1 bssBANK0 dist/default/production\Comunica__o_46K22.X.production.obj
+Set_Timer3@data_timer 11 0 COMRAM 1 cstackCOMRAM dist/default/production\Comunica__o_46K22.X.production.obj
+_p_etanol 93 0 BANK0 1 bssBANK0 dist/default/production\Comunica__o_46K22.X.production.obj
+__end_of_Make16 D98 0 CODE 0 text10 dist/default/production\Comunica__o_46K22.X.production.obj
+__Lsmallconst 0 0 SMALLCONST 0 smallconst dist/default/production\Comunica__o_46K22.X.production.obj
+_RCIF 7CF5 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+_Rot1 42 0 COMRAM 1 bssCOMRAM dist/default/production\Comunica__o_46K22.X.production.obj
+_Rot2 41 0 COMRAM 1 bssCOMRAM dist/default/production\Comunica__o_46K22.X.production.obj
+_TMR2 FBC 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+_TMR4 F53 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+_TMR6 F4C 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+___sp 0 0 STACK 2 stack C:\Users\willi\AppData\Local\Temp\s9es.obj
+_flag 26E -21B COMRAM 1 bitbssCOMRAM dist/default/production\Comunica__o_46K22.X.production.obj
+_main 498 0 CODE 0 text0 dist/default/production\Comunica__o_46K22.X.production.obj
+_shit 26F -21B COMRAM 1 bitbssCOMRAM dist/default/production\Comunica__o_46K22.X.production.obj
+btemp 4F 0 COMRAM 1 temp dist/default/production\Comunica__o_46K22.X.production.obj
+___ftadd@f1 E7 0 BANK0 1 cstackBANK0 dist/default/production\Comunica__o_46K22.X.production.obj
+___ftadd@f2 EA 0 BANK0 1 cstackBANK0 dist/default/production\Comunica__o_46K22.X.production.obj
+start 244 0 CODE 0 init C:\Users\willi\AppData\Local\Temp\s9es.obj
+__size_of___aldiv 0 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+__size_of___ftadd 0 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+__size_of___ftdiv 0 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+__size_of___ftmul 0 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+__size_of___fttol 0 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+__size_of_main 0 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+__HbssCOMRAM 0 0 ABS 0 bssCOMRAM dist/default/production\Comunica__o_46K22.X.production.obj
+___ftdiv@f1 2B 0 COMRAM 1 cstackCOMRAM dist/default/production\Comunica__o_46K22.X.production.obj
+___ftdiv@f2 2E 0 COMRAM 1 cstackCOMRAM dist/default/production\Comunica__o_46K22.X.production.obj
+___ftdiv@f3 35 0 COMRAM 1 cstackCOMRAM dist/default/production\Comunica__o_46K22.X.production.obj
+_Set_Timer3 E00 0 CODE 0 text7 dist/default/production\Comunica__o_46K22.X.production.obj
+__LidataBANK0 0 0 ABS 0 idataBANK0 dist/default/production\Comunica__o_46K22.X.production.obj
+_estado_controle_ign 45 0 COMRAM 1 bssCOMRAM dist/default/production\Comunica__o_46K22.X.production.obj
+__Hpowerup 244 0 CODE 0 powerup dist/default/production\Comunica__o_46K22.X.production.obj
+__pbitbssCOMRAM 268 -21B COMRAM 1 bitbssCOMRAM dist/default/production\Comunica__o_46K22.X.production.obj
+_buffer_already 60 0 BANK0 1 bssBANK0 dist/default/production\Comunica__o_46K22.X.production.obj
+_T0CONbits FD5 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+__end_of_Init1_RS232 A0A 0 CODE 0 text14 dist/default/production\Comunica__o_46K22.X.production.obj
+__accesstop 60 0 ABS 0 - C:\Users\willi\AppData\Local\Temp\s9es.obj
+intlevel0 0 0 CODE 0 text C:\Users\willi\AppData\Local\Temp\s9es.obj
+intlevel1 0 0 CODE 0 text C:\Users\willi\AppData\Local\Temp\s9es.obj
+intlevel2 0 0 CODE 0 text C:\Users\willi\AppData\Local\Temp\s9es.obj
+intlevel3 0 0 CODE 0 text C:\Users\willi\AppData\Local\Temp\s9es.obj
+__LbssCOMRAM 0 0 ABS 0 bssCOMRAM dist/default/production\Comunica__o_46K22.X.production.obj
+_Config_Timer0 DEE 0 CODE 0 text18 dist/default/production\Comunica__o_46K22.X.production.obj
+_Config_Timer1 DDC 0 CODE 0 text17 dist/default/production\Comunica__o_46K22.X.production.obj
+_Config_Timer3 D98 0 CODE 0 text16 dist/default/production\Comunica__o_46K22.X.production.obj
+___aldiv@divisor 15 0 COMRAM 1 cstackCOMRAM dist/default/production\Comunica__o_46K22.X.production.obj
+__LnvFARRAM 0 0 FARRAM 0 nvFARRAM dist/default/production\Comunica__o_46K22.X.production.obj
+__size_of_Putc_TX1 0 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+__CFG_EBTR0$OFF 0 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+__CFG_EBTR1$OFF 0 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+__CFG_EBTRB$OFF 0 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+__Hifardata 0 0 CODE 0 ifardata dist/default/production\Comunica__o_46K22.X.production.obj
+__CFG_FOSC$HSHP 0 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+___aldiv@sign 1A 0 COMRAM 1 cstackCOMRAM dist/default/production\Comunica__o_46K22.X.production.obj
+__Hclrtext 0 0 ABS 0 clrtext dist/default/production\Comunica__o_46K22.X.production.obj
+Putc_TX1_16bits@lsb 15 0 COMRAM 1 cstackCOMRAM dist/default/production\Comunica__o_46K22.X.production.obj
+Putc_TX1_16bits@msb 14 0 COMRAM 1 cstackCOMRAM dist/default/production\Comunica__o_46K22.X.production.obj
+___ftmul@f1 1C 0 COMRAM 1 cstackCOMRAM dist/default/production\Comunica__o_46K22.X.production.obj
+___ftmul@f2 1F 0 COMRAM 1 cstackCOMRAM dist/default/production\Comunica__o_46K22.X.production.obj
+_flag_serial 4A 0 COMRAM 1 bssCOMRAM dist/default/production\Comunica__o_46K22.X.production.obj
+_ADRESH FC4 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+_ANSELA F38 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+_ANSELB F39 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+_ANSELC F3A 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+_ANSELD F3B 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+_ANSELE F3C 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+___inthi_sp 0 0 STACK 2 stack C:\Users\willi\AppData\Local\Temp\s9es.obj
+___intlo_sp 0 0 STACK 2 stack C:\Users\willi\AppData\Local\Temp\s9es.obj
+__Hintcode_body 0 0 ABS 0 intcode_body dist/default/production\Comunica__o_46K22.X.production.obj
+__end_of_Set_Timer3 E0A 0 CODE 0 text7 dist/default/production\Comunica__o_46K22.X.production.obj
+_flag_send_adm 26B -21B COMRAM 1 bitbssCOMRAM dist/default/production\Comunica__o_46K22.X.production.obj
+_flag_send_ger 26C -21B COMRAM 1 bitbssCOMRAM dist/default/production\Comunica__o_46K22.X.production.obj
+__Lintsave_regs 0 0 BIGRAM 1 intsave_regs dist/default/production\Comunica__o_46K22.X.production.obj
+_CountCANTemp A6 0 BANK0 1 bssBANK0 dist/default/production\Comunica__o_46K22.X.production.obj
+___fttol@f1 F0 0 BANK0 1 cstackBANK0 dist/default/production\Comunica__o_46K22.X.production.obj
+__Hmediumconst 0 0 MEDIUMCONST 0 mediumconst dist/default/production\Comunica__o_46K22.X.production.obj
+__Hintcodelo 244 0 CODE 0 intcodelo dist/default/production\Comunica__o_46K22.X.production.obj
+__size_of___ftpack 0 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+__end_of___aldiv BBC 0 CODE 0 text15 dist/default/production\Comunica__o_46K22.X.production.obj
+__end_of___ftadd 498 0 CODE 0 text5 dist/default/production\Comunica__o_46K22.X.production.obj
+__end_of___ftdiv AF0 0 CODE 0 text4 dist/default/production\Comunica__o_46K22.X.production.obj
+__end_of___ftmul 91C 0 CODE 0 text3 dist/default/production\Comunica__o_46K22.X.production.obj
+__end_of___fttol 828 0 CODE 0 text2 dist/default/production\Comunica__o_46K22.X.production.obj
+Init1_RS232@value 25 0 COMRAM 1 cstackCOMRAM dist/default/production\Comunica__o_46K22.X.production.obj
+__end_of_Putc_TX1_16bits DC8 0 CODE 0 text8 dist/default/production\Comunica__o_46K22.X.production.obj
+_address D7 0 BANK0 1 bssBANK0 dist/default/production\Comunica__o_46K22.X.production.obj
+_Putc_TX1 DC8 0 CODE 0 text9 dist/default/production\Comunica__o_46K22.X.production.obj
+_ij_tmr_disparo B6 0 BANK0 1 bssBANK0 dist/default/production\Comunica__o_46K22.X.production.obj
+_final_i2c_sincronismo 26A -21B COMRAM 1 bitbssCOMRAM dist/default/production\Comunica__o_46K22.X.production.obj
+_Old_Value 100 0 BANK1 1 bssBANK1 dist/default/production\Comunica__o_46K22.X.production.obj
+_I2C_Slave_Init D0E 0 CODE 0 text11 dist/default/production\Comunica__o_46K22.X.production.obj
+_InjTrigger1 E4 0 BANK0 1 bssBANK0 dist/default/production\Comunica__o_46K22.X.production.obj
+_InjTrigger2 E3 0 BANK0 1 bssBANK0 dist/default/production\Comunica__o_46K22.X.production.obj
+__end_of_ConfigureHW D0E 0 CODE 0 text12 dist/default/production\Comunica__o_46K22.X.production.obj
+__end_of_Putc_TX1 DDC 0 CODE 0 text9 dist/default/production\Comunica__o_46K22.X.production.obj
+_Lambda FB 0 BANK0 1 dataBANK0 dist/default/production\Comunica__o_46K22.X.production.obj
+_INTCON2bits FF1 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+_INTCON3bits FF0 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+__size_of___lwtoft 0 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+__Lintcodelo 244 0 CODE 0 intcodelo dist/default/production\Comunica__o_46K22.X.production.obj
+_IgTrigger E1 0 BANK0 1 bssBANK0 dist/default/production\Comunica__o_46K22.X.production.obj
+_Make16 D7E 0 CODE 0 text10 dist/default/production\Comunica__o_46K22.X.production.obj
+__CFG_FCMEN$OFF 0 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+_char_serial_ant 4C 0 COMRAM 1 bssCOMRAM dist/default/production\Comunica__o_46K22.X.production.obj
+start_initialization C6A 0 CODE 0 cinit dist/default/production\Comunica__o_46K22.X.production.obj
+Make16@data1 15 0 COMRAM 1 cstackCOMRAM dist/default/production\Comunica__o_46K22.X.production.obj
+Make16@data2 11 0 COMRAM 1 cstackCOMRAM dist/default/production\Comunica__o_46K22.X.production.obj
+__HnvFARRAM 0 0 FARRAM 0 nvFARRAM dist/default/production\Comunica__o_46K22.X.production.obj
+_TRISAbits F92 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+_TRISBbits F93 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+_TRISCbits F94 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+_TRISEbits F96 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+___aldiv@quotient 1B 0 COMRAM 1 cstackCOMRAM dist/default/production\Comunica__o_46K22.X.production.obj
+__size_of_Config_Timer0 0 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+__size_of_Config_Timer1 0 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+__size_of_Config_Timer3 0 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+___rparam_used 1 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+_RCREG1 FAE 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+_RCREG2 F74 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+_RCSTA1 FAB 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+_RCSTA2 F71 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+_ig_tmr_disparo B8 0 BANK0 1 bssBANK0 dist/default/production\Comunica__o_46K22.X.production.obj
+__CFG_WDTPS$32768 0 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+_SPBRG1 FAF 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+__pcstackBANK0 E7 0 BANK0 1 cstackBANK0 dist/default/production\Comunica__o_46K22.X.production.obj
+__pcstackBANK1 148 0 BANK1 1 cstackBANK1 dist/default/production\Comunica__o_46K22.X.production.obj
+_SSP1IP 7CFB 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+___fttol@exp1 14D 0 BANK1 1 cstackBANK1 dist/default/production\Comunica__o_46K22.X.production.obj
+___fttol@lval 149 0 BANK1 1 cstackBANK1 dist/default/production\Comunica__o_46K22.X.production.obj
+_porc_etanol B2 0 BANK0 1 bssBANK0 dist/default/production\Comunica__o_46K22.X.production.obj
+_TMR1IE 7CE8 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+_TMR3IE 7D01 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+_TMR5IE 7BE9 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+_TRISA0 7C90 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+_TRISA5 7C95 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+_TRISB0 7C98 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+_TRISB1 7C99 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+_TRISB2 7C9A 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+_TRISB7 7C9F 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+_TRISC0 7CA0 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+_TRISC1 7CA1 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+_TRISC2 7CA2 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+_TRISC3 7CA3 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+_TRISC4 7CA4 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+_TRISC5 7CA5 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+_TRISC6 7CA6 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+_TRISC7 7CA7 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+_TRISD0 7CA8 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+_TRISD1 7CA9 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+_TRISD3 7CAB 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+_TRISD4 7CAC 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+_TRISD6 7CAE 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+_TRISD7 7CAF 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+_TXREG1 FAD 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+_TXREG2 F73 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+_TXSTA1 FAC 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+_TXSTA2 F72 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+_TempAg DB 0 BANK0 1 bssBANK0 dist/default/production\Comunica__o_46K22.X.production.obj
+_TempAr DC 0 BANK0 1 bssBANK0 dist/default/production\Comunica__o_46K22.X.production.obj
+___ftpack BBC 0 CODE 0 text6 dist/default/production\Comunica__o_46K22.X.production.obj
+_TmrBob E2 0 BANK0 1 bssBANK0 dist/default/production\Comunica__o_46K22.X.production.obj
+_Putc_TX1_16bits DB2 0 CODE 0 text8 dist/default/production\Comunica__o_46K22.X.production.obj
+i2Set_Timer3@data_timer 1 0 COMRAM 1 cstackCOMRAM dist/default/production\Comunica__o_46K22.X.production.obj
+_ref_rpm BA 0 BANK0 1 bssBANK0 dist/default/production\Comunica__o_46K22.X.production.obj
+___ftpack@arg 11 0 COMRAM 1 cstackCOMRAM dist/default/production\Comunica__o_46K22.X.production.obj
+___ftpack@exp 14 0 COMRAM 1 cstackCOMRAM dist/default/production\Comunica__o_46K22.X.production.obj
+_buffer_read 116 0 BANK1 1 bssBANK1 dist/default/production\Comunica__o_46K22.X.production.obj
+_No_Analogs D5E 0 CODE 0 text13 dist/default/production\Comunica__o_46K22.X.production.obj
+__size_of_Init1_RS232 0 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+__end_of___ftpack C6A 0 CODE 0 text6 dist/default/production\Comunica__o_46K22.X.production.obj
+__Hbank0 0 0 ABS 0 bank0 dist/default/production\Comunica__o_46K22.X.production.obj
+__Hbank1 0 0 ABS 0 bank1 dist/default/production\Comunica__o_46K22.X.production.obj
+__Hbank2 0 0 ABS 0 bank2 dist/default/production\Comunica__o_46K22.X.production.obj
+__Hbank3 0 0 ABS 0 bank3 dist/default/production\Comunica__o_46K22.X.production.obj
+__Hbank4 0 0 ABS 0 bank4 dist/default/production\Comunica__o_46K22.X.production.obj
+__Hbank5 0 0 ABS 0 bank5 dist/default/production\Comunica__o_46K22.X.production.obj
+__Hbank6 0 0 ABS 0 bank6 dist/default/production\Comunica__o_46K22.X.production.obj
+__Hbank7 0 0 ABS 0 bank7 dist/default/production\Comunica__o_46K22.X.production.obj
+__Hbank8 0 0 ABS 0 bank8 dist/default/production\Comunica__o_46K22.X.production.obj
+__Hbank9 0 0 ABS 0 bank9 dist/default/production\Comunica__o_46K22.X.production.obj
+__Hcinit 0 0 ABS 0 cinit dist/default/production\Comunica__o_46K22.X.production.obj
+__Hconst 0 0 CONST 0 const dist/default/production\Comunica__o_46K22.X.production.obj
+__end_of_I2C_Slave_Init D3A 0 CODE 0 text11 dist/default/production\Comunica__o_46K22.X.production.obj
+__Hidata 0 0 CODE 0 idata dist/default/production\Comunica__o_46K22.X.production.obj
+__Hidloc 200008 0 IDLOC 0 idloc dist/default/production\Comunica__o_46K22.X.production.obj
+__Hnvbit 0 0 COMRAM 1 nvbit dist/default/production\Comunica__o_46K22.X.production.obj
+__Hparam 0 0 COMRAM 1 rparam dist/default/production\Comunica__o_46K22.X.production.obj
+__Hrdata 0 0 COMRAM 1 rdata dist/default/production\Comunica__o_46K22.X.production.obj
+__Hstack 0 0 STACK 2 stack dist/default/production\Comunica__o_46K22.X.production.obj
+__Htext0 0 0 ABS 0 text0 dist/default/production\Comunica__o_46K22.X.production.obj
+__Htext1 0 0 ABS 0 text1 dist/default/production\Comunica__o_46K22.X.production.obj
+__Htext2 0 0 ABS 0 text2 dist/default/production\Comunica__o_46K22.X.production.obj
+__Htext3 0 0 ABS 0 text3 dist/default/production\Comunica__o_46K22.X.production.obj
+__Htext4 0 0 ABS 0 text4 dist/default/production\Comunica__o_46K22.X.production.obj
+__Htext5 0 0 ABS 0 text5 dist/default/production\Comunica__o_46K22.X.production.obj
+__Htext6 0 0 ABS 0 text6 dist/default/production\Comunica__o_46K22.X.production.obj
+__Htext7 0 0 ABS 0 text7 dist/default/production\Comunica__o_46K22.X.production.obj
+__Htext8 0 0 ABS 0 text8 dist/default/production\Comunica__o_46K22.X.production.obj
+__Htext9 0 0 ABS 0 text9 dist/default/production\Comunica__o_46K22.X.production.obj
+__size_of_Make16 0 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+__Hbank10 0 0 ABS 0 bank10 dist/default/production\Comunica__o_46K22.X.production.obj
+__Hbank11 0 0 ABS 0 bank11 dist/default/production\Comunica__o_46K22.X.production.obj
+__Hbank12 0 0 ABS 0 bank12 dist/default/production\Comunica__o_46K22.X.production.obj
+__Hbank13 0 0 ABS 0 bank13 dist/default/production\Comunica__o_46K22.X.production.obj
+__Hbank14 0 0 ABS 0 bank14 dist/default/production\Comunica__o_46K22.X.production.obj
+__Hbank15 0 0 ABS 0 bank15 dist/default/production\Comunica__o_46K22.X.production.obj
+_InjDntExtra E0 0 BANK0 1 bssBANK0 dist/default/production\Comunica__o_46K22.X.production.obj
+__Hbigbss 0 0 BIGRAM 1 bigbss dist/default/production\Comunica__o_46K22.X.production.obj
+__Hbigram 0 0 ABS 0 bigram dist/default/production\Comunica__o_46K22.X.production.obj
+__end_of_Config_Timer0 E00 0 CODE 0 text18 dist/default/production\Comunica__o_46K22.X.production.obj
+__end_of_Config_Timer1 DEE 0 CODE 0 text17 dist/default/production\Comunica__o_46K22.X.production.obj
+__end_of_Config_Timer3 DB2 0 CODE 0 text16 dist/default/production\Comunica__o_46K22.X.production.obj
+__smallconst 0 0 SMALLCONST 0 smallconst C:\Users\willi\AppData\Local\Temp\s9es.obj
+__Hcomram 0 0 ABS 0 comram dist/default/production\Comunica__o_46K22.X.production.obj
+__Hconfig 30000E 0 CONFIG 0 config dist/default/production\Comunica__o_46K22.X.production.obj
+___lwtoft D3A 0 CODE 0 text1 dist/default/production\Comunica__o_46K22.X.production.obj
+_CountCANRot A8 0 BANK0 1 bssBANK0 dist/default/production\Comunica__o_46K22.X.production.obj
+_TmrInj1 47 0 COMRAM 1 bssCOMRAM dist/default/production\Comunica__o_46K22.X.production.obj
+_TmrInj2 46 0 COMRAM 1 bssCOMRAM dist/default/production\Comunica__o_46K22.X.production.obj
+__Lbank0 0 0 ABS 0 bank0 dist/default/production\Comunica__o_46K22.X.production.obj
+__Lbank1 0 0 ABS 0 bank1 dist/default/production\Comunica__o_46K22.X.production.obj
+__Lbank2 0 0 ABS 0 bank2 dist/default/production\Comunica__o_46K22.X.production.obj
+__Lbank3 0 0 ABS 0 bank3 dist/default/production\Comunica__o_46K22.X.production.obj
+__Lbank4 0 0 ABS 0 bank4 dist/default/production\Comunica__o_46K22.X.production.obj
+__Lbank5 0 0 ABS 0 bank5 dist/default/production\Comunica__o_46K22.X.production.obj
+__Lbank6 0 0 ABS 0 bank6 dist/default/production\Comunica__o_46K22.X.production.obj
+__Lbank7 0 0 ABS 0 bank7 dist/default/production\Comunica__o_46K22.X.production.obj
+__Lbank8 0 0 ABS 0 bank8 dist/default/production\Comunica__o_46K22.X.production.obj
+__Lbank9 0 0 ABS 0 bank9 dist/default/production\Comunica__o_46K22.X.production.obj
+__Lcinit 0 0 ABS 0 cinit dist/default/production\Comunica__o_46K22.X.production.obj
+__Lconst 0 0 CONST 0 const dist/default/production\Comunica__o_46K22.X.production.obj
+__Lidata 0 0 CODE 0 idata dist/default/production\Comunica__o_46K22.X.production.obj
+__Lidloc 200000 0 IDLOC 0 idloc dist/default/production\Comunica__o_46K22.X.production.obj
+___ftadd@exp1 EF 0 BANK0 1 cstackBANK0 dist/default/production\Comunica__o_46K22.X.production.obj
+___ftadd@exp2 EE 0 BANK0 1 cstackBANK0 dist/default/production\Comunica__o_46K22.X.production.obj
+___ftadd@sign ED 0 BANK0 1 cstackBANK0 dist/default/production\Comunica__o_46K22.X.production.obj
+__Lnvbit 0 0 COMRAM 1 nvbit dist/default/production\Comunica__o_46K22.X.production.obj
+__Lparam 0 0 COMRAM 1 rparam dist/default/production\Comunica__o_46K22.X.production.obj
+__Lrdata 0 0 COMRAM 1 rdata dist/default/production\Comunica__o_46K22.X.production.obj
+__Lstack 0 0 STACK 2 stack dist/default/production\Comunica__o_46K22.X.production.obj
+__Ltext0 0 0 ABS 0 text0 dist/default/production\Comunica__o_46K22.X.production.obj
+__Ltext1 0 0 ABS 0 text1 dist/default/production\Comunica__o_46K22.X.production.obj
+__Ltext2 0 0 ABS 0 text2 dist/default/production\Comunica__o_46K22.X.production.obj
+__Ltext3 0 0 ABS 0 text3 dist/default/production\Comunica__o_46K22.X.production.obj
+__Ltext4 0 0 ABS 0 text4 dist/default/production\Comunica__o_46K22.X.production.obj
+__Ltext5 0 0 ABS 0 text5 dist/default/production\Comunica__o_46K22.X.production.obj
+__Ltext6 0 0 ABS 0 text6 dist/default/production\Comunica__o_46K22.X.production.obj
+__Ltext7 0 0 ABS 0 text7 dist/default/production\Comunica__o_46K22.X.production.obj
+__Ltext8 0 0 ABS 0 text8 dist/default/production\Comunica__o_46K22.X.production.obj
+__Ltext9 0 0 ABS 0 text9 dist/default/production\Comunica__o_46K22.X.production.obj
+__Hfarbss 0 0 FARRAM 0 farbss dist/default/production\Comunica__o_46K22.X.production.obj
+__Lintcode_body 0 0 ABS 0 intcode_body dist/default/production\Comunica__o_46K22.X.production.obj
+__end_of___lwtoft D5E 0 CODE 0 text1 dist/default/production\Comunica__o_46K22.X.production.obj
+_INTCONbits FF2 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+__Habs1 0 0 ABS 0 abs1 dist/default/production\Comunica__o_46K22.X.production.obj
+__Hdata 0 0 ABS 0 data dist/default/production\Comunica__o_46K22.X.production.obj
+__Hinit 248 0 CODE 0 init dist/default/production\Comunica__o_46K22.X.production.obj
+__Hrbit 0 0 COMRAM 1 rbit dist/default/production\Comunica__o_46K22.X.production.obj
+__Hrbss 0 0 COMRAM 1 rbss dist/default/production\Comunica__o_46K22.X.production.obj
+__Htemp 50 0 COMRAM 1 temp dist/default/production\Comunica__o_46K22.X.production.obj
+__Htext 0 0 ABS 0 text dist/default/production\Comunica__o_46K22.X.production.obj
+__Labs1 0 0 ABS 0 abs1 dist/default/production\Comunica__o_46K22.X.production.obj
+__Ldata 0 0 ABS 0 data dist/default/production\Comunica__o_46K22.X.production.obj
+__Linit 244 0 CODE 0 init dist/default/production\Comunica__o_46K22.X.production.obj
+__Lrbit 0 0 COMRAM 1 rbit dist/default/production\Comunica__o_46K22.X.production.obj
+__Lrbss 0 0 COMRAM 1 rbss dist/default/production\Comunica__o_46K22.X.production.obj
+__Ltemp 4F 0 COMRAM 1 temp dist/default/production\Comunica__o_46K22.X.production.obj
+__Ltext 0 0 ABS 0 text dist/default/production\Comunica__o_46K22.X.production.obj
+__CFG_XINST$OFF 0 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+_SSP1CON1 FC6 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+_SSP1CON2 FC5 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+_SSP1STAT FC7 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+_SSP2CON1 F6C 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+_SSP2STAT F6D 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+__LcstackBANK0 0 0 ABS 0 cstackBANK0 dist/default/production\Comunica__o_46K22.X.production.obj
+__LcstackBANK1 0 0 ABS 0 cstackBANK1 dist/default/production\Comunica__o_46K22.X.production.obj
+_SSP2STATbits F6D 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+int$flags 4F 0 COMRAM 1 temp dist/default/production\Comunica__o_46K22.X.production.obj
+_rotacao 8C 0 BANK0 1 bssBANK0 dist/default/production\Comunica__o_46K22.X.production.obj
+__HcstackCOMRAM 0 0 ABS 0 cstackCOMRAM dist/default/production\Comunica__o_46K22.X.production.obj
+__Hintret 0 0 ABS 0 intret dist/default/production\Comunica__o_46K22.X.production.obj
+__Hirdata 0 0 CODE 0 irdata dist/default/production\Comunica__o_46K22.X.production.obj
+_BAT F9 0 BANK0 1 dataBANK0 dist/default/production\Comunica__o_46K22.X.production.obj
+_MAP DD 0 BANK0 1 bssBANK0 dist/default/production\Comunica__o_46K22.X.production.obj
+_SCC E5 0 BANK0 1 bssBANK0 dist/default/production\Comunica__o_46K22.X.production.obj
+__S0 30000E 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+__S1 14E 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+__S2 0 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+_isr 8 0 CODE 0 intcode dist/default/production\Comunica__o_46K22.X.production.obj
+_map CA 0 BANK0 1 bssBANK0 dist/default/production\Comunica__o_46K22.X.production.obj
+_tmr A2 0 BANK0 1 bssBANK0 dist/default/production\Comunica__o_46K22.X.production.obj
+_angle1 DA 0 BANK0 1 bssBANK0 dist/default/production\Comunica__o_46K22.X.production.obj
+_angle2 D9 0 BANK0 1 bssBANK0 dist/default/production\Comunica__o_46K22.X.production.obj
+_buffer 74 0 BANK0 1 bssBANK0 dist/default/production\Comunica__o_46K22.X.production.obj
+Init1_RS232@mode 23 0 COMRAM 1 cstackCOMRAM dist/default/production\Comunica__o_46K22.X.production.obj
+__Lbigdata 0 0 BIGRAM 1 bigdata dist/default/production\Comunica__o_46K22.X.production.obj
+__end_of_No_Analogs D7E 0 CODE 0 text13 dist/default/production\Comunica__o_46K22.X.production.obj
+_tempo_bob C6 0 BANK0 1 bssBANK0 dist/default/production\Comunica__o_46K22.X.production.obj
+_tempo_inj C4 0 BANK0 1 bssBANK0 dist/default/production\Comunica__o_46K22.X.production.obj
+__Hnvrram 0 0 COMRAM 1 nvrram dist/default/production\Comunica__o_46K22.X.production.obj
+__size_of_Set_Timer3 0 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+_flag_send_sinc 26D -21B COMRAM 1 bitbssCOMRAM dist/default/production\Comunica__o_46K22.X.production.obj
+__end_of_isr 244 0 CODE 0 intcode dist/default/production\Comunica__o_46K22.X.production.obj
+_SetVetVel2 DF 0 BANK0 1 bssBANK0 dist/default/production\Comunica__o_46K22.X.production.obj
+_Select_Data 49 0 COMRAM 1 bssCOMRAM dist/default/production\Comunica__o_46K22.X.production.obj
+__Lintentry 0 0 ABS 0 intentry dist/default/production\Comunica__o_46K22.X.production.obj
+_lcd_ctr D2 0 BANK0 1 bssBANK0 dist/default/production\Comunica__o_46K22.X.production.obj
+__Hramtop 1000 0 RAM 0 ramtop dist/default/production\Comunica__o_46K22.X.production.obj
+__size_of_Putc_TX1_16bits 0 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+__Hrparam 0 0 COMRAM 1 rparam dist/default/production\Comunica__o_46K22.X.production.obj
+__size_of_ConfigureHW 0 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+_dado_i2c D8 0 BANK0 1 bssBANK0 dist/default/production\Comunica__o_46K22.X.production.obj
+__pdataBANK0 F9 0 BANK0 1 dataBANK0 dist/default/production\Comunica__o_46K22.X.production.obj
+__activetblptr 2 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+__Hstruct 0 0 COMRAM 1 struct dist/default/production\Comunica__o_46K22.X.production.obj
+__LbssBANK0 0 0 ABS 0 bssBANK0 dist/default/production\Comunica__o_46K22.X.production.obj
+__LbssBANK1 0 0 ABS 0 bssBANK1 dist/default/production\Comunica__o_46K22.X.production.obj
+__Htext10 0 0 ABS 0 text10 dist/default/production\Comunica__o_46K22.X.production.obj
+__Htext11 0 0 ABS 0 text11 dist/default/production\Comunica__o_46K22.X.production.obj
+__Htext12 0 0 ABS 0 text12 dist/default/production\Comunica__o_46K22.X.production.obj
+__Htext13 0 0 ABS 0 text13 dist/default/production\Comunica__o_46K22.X.production.obj
+__Htext14 0 0 ABS 0 text14 dist/default/production\Comunica__o_46K22.X.production.obj
+__Htext15 0 0 ABS 0 text15 dist/default/production\Comunica__o_46K22.X.production.obj
+__Htext16 0 0 ABS 0 text16 dist/default/production\Comunica__o_46K22.X.production.obj
+__Htext17 0 0 ABS 0 text17 dist/default/production\Comunica__o_46K22.X.production.obj
+__Htext18 0 0 ABS 0 text18 dist/default/production\Comunica__o_46K22.X.production.obj
+__Htext20 0 0 ABS 0 text20 dist/default/production\Comunica__o_46K22.X.production.obj
+_CountSerial A4 0 BANK0 1 bssBANK0 dist/default/production\Comunica__o_46K22.X.production.obj
+_logica 270 -21B COMRAM 1 bitbssCOMRAM dist/default/production\Comunica__o_46K22.X.production.obj
+_PIE1bits F9D 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+Putc_TX1_16bits@dado 12 0 COMRAM 1 cstackCOMRAM dist/default/production\Comunica__o_46K22.X.production.obj
+_PIE2bits FA0 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+__ptext10 D7E 0 CODE 0 text10 dist/default/production\Comunica__o_46K22.X.production.obj
+__ptext11 D0E 0 CODE 0 text11 dist/default/production\Comunica__o_46K22.X.production.obj
+__ptext12 CC0 0 CODE 0 text12 dist/default/production\Comunica__o_46K22.X.production.obj
+__ptext13 D5E 0 CODE 0 text13 dist/default/production\Comunica__o_46K22.X.production.obj
+__ptext14 91C 0 CODE 0 text14 dist/default/production\Comunica__o_46K22.X.production.obj
+__ptext15 AF0 0 CODE 0 text15 dist/default/production\Comunica__o_46K22.X.production.obj
+__ptext16 D98 0 CODE 0 text16 dist/default/production\Comunica__o_46K22.X.production.obj
+__ptext17 DDC 0 CODE 0 text17 dist/default/production\Comunica__o_46K22.X.production.obj
+__ptext18 DEE 0 CODE 0 text18 dist/default/production\Comunica__o_46K22.X.production.obj
+__ptext20 E0A 0 CODE 0 text20 dist/default/production\Comunica__o_46K22.X.production.obj
+___aldiv AF0 0 CODE 0 text15 dist/default/production\Comunica__o_46K22.X.production.obj
+___ftadd 248 0 CODE 0 text5 dist/default/production\Comunica__o_46K22.X.production.obj
+___ftdiv A0A 0 CODE 0 text4 dist/default/production\Comunica__o_46K22.X.production.obj
+___ftmul 828 0 CODE 0 text3 dist/default/production\Comunica__o_46K22.X.production.obj
+___fttol 6E4 0 CODE 0 text2 dist/default/production\Comunica__o_46K22.X.production.obj
+__Lbank10 0 0 ABS 0 bank10 dist/default/production\Comunica__o_46K22.X.production.obj
+__Lbank11 0 0 ABS 0 bank11 dist/default/production\Comunica__o_46K22.X.production.obj
+__Lbank12 0 0 ABS 0 bank12 dist/default/production\Comunica__o_46K22.X.production.obj
+__Lbank13 0 0 ABS 0 bank13 dist/default/production\Comunica__o_46K22.X.production.obj
+__Lbank14 0 0 ABS 0 bank14 dist/default/production\Comunica__o_46K22.X.production.obj
+__Lbank15 0 0 ABS 0 bank15 dist/default/production\Comunica__o_46K22.X.production.obj
+_temp_bob C0 0 BANK0 1 bssBANK0 dist/default/production\Comunica__o_46K22.X.production.obj
+__Lbigbss 0 0 BIGRAM 1 bigbss dist/default/production\Comunica__o_46K22.X.production.obj
+__Lbigram 0 0 ABS 0 bigram dist/default/production\Comunica__o_46K22.X.production.obj
+__Lcomram 0 0 ABS 0 comram dist/default/production\Comunica__o_46K22.X.production.obj
+__Lconfig 300000 0 CONFIG 0 config dist/default/production\Comunica__o_46K22.X.production.obj
+?___ftpack 11 0 COMRAM 1 cstackCOMRAM dist/default/production\Comunica__o_46K22.X.production.obj
+I2C_Slave_Init@address 11 0 COMRAM 1 cstackCOMRAM dist/default/production\Comunica__o_46K22.X.production.obj
+_LATAbits F89 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+_LATBbits F8A 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+_LATCbits F8B 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+_LATEbits F8D 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+_ref_vb 43 0 COMRAM 1 bssCOMRAM dist/default/production\Comunica__o_46K22.X.production.obj
+_tempo_inj_com 99 0 BANK0 1 bssBANK0 dist/default/production\Comunica__o_46K22.X.production.obj
+_RCSTA1bits FAB 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+_T6CONbits F4A 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+__Lfarbss 0 0 FARRAM 0 farbss dist/default/production\Comunica__o_46K22.X.production.obj
+__Lfardata 0 0 FARRAM 0 fardata dist/default/production\Comunica__o_46K22.X.production.obj
+_t_agua BC 0 BANK0 1 bssBANK0 dist/default/production\Comunica__o_46K22.X.production.obj
+_txbuff 12A 0 BANK1 1 bssBANK1 dist/default/production\Comunica__o_46K22.X.production.obj
+___lwtoft@c 19 0 COMRAM 1 cstackCOMRAM dist/default/production\Comunica__o_46K22.X.production.obj
+stackhi F37 0 ABS 0 - C:\Users\willi\AppData\Local\Temp\s9es.obj
+stacklo 14E 0 ABS 0 - C:\Users\willi\AppData\Local\Temp\s9es.obj
+__Lintcode 8 0 CODE 0 intcode dist/default/production\Comunica__o_46K22.X.production.obj
+__Lintret 0 0 ABS 0 intret dist/default/production\Comunica__o_46K22.X.production.obj
+__Lirdata 0 0 CODE 0 irdata dist/default/production\Comunica__o_46K22.X.production.obj
+?___lwtoft 19 0 COMRAM 1 cstackCOMRAM dist/default/production\Comunica__o_46K22.X.production.obj
+_ADCON0bits FC2 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+_ADCON1bits FC1 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+_ADCON2bits FC0 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+__CFG_LVP$OFF 0 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+__Lspace_0 0 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+__Lspace_1 0 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+__Lspace_2 0 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+___ftmul@cntr 29 0 COMRAM 1 cstackCOMRAM dist/default/production\Comunica__o_46K22.X.production.obj
+__pbssCOMRAM 3F 0 COMRAM 1 bssCOMRAM dist/default/production\Comunica__o_46K22.X.production.obj
+___ftmul@sign 2A 0 COMRAM 1 cstackCOMRAM dist/default/production\Comunica__o_46K22.X.production.obj
+__HbitbssCOMRAM 0 0 ABS 0 bitbssCOMRAM dist/default/production\Comunica__o_46K22.X.production.obj
+_t_ar_com BE 0 BANK0 1 bssBANK0 dist/default/production\Comunica__o_46K22.X.production.obj
+__HcstackBANK0 0 0 ABS 0 cstackBANK0 dist/default/production\Comunica__o_46K22.X.production.obj
+__HcstackBANK1 0 0 ABS 0 cstackBANK1 dist/default/production\Comunica__o_46K22.X.production.obj
+i2_Set_Timer3 E0A 0 CODE 0 text20 dist/default/production\Comunica__o_46K22.X.production.obj
+_char_serial 4B 0 COMRAM 1 bssCOMRAM dist/default/production\Comunica__o_46K22.X.production.obj
+_PIR1bits F9E 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+_PIR2bits FA1 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+__LcstackCOMRAM 0 0 ABS 0 cstackCOMRAM dist/default/production\Comunica__o_46K22.X.production.obj
+end_of_initialization CB2 0 CODE 0 cinit dist/default/production\Comunica__o_46K22.X.production.obj
+_Init1_RS232 91C 0 CODE 0 text14 dist/default/production\Comunica__o_46K22.X.production.obj
+_T5CONbits F4E 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+_Init1_RS232$3408 27 0 COMRAM 1 cstackCOMRAM dist/default/production\Comunica__o_46K22.X.production.obj
+_UpdateRot AA 0 BANK0 1 bssBANK0 dist/default/production\Comunica__o_46K22.X.production.obj
+__Lnvrram 0 0 COMRAM 1 nvrram dist/default/production\Comunica__o_46K22.X.production.obj
+__Hintentry 0 0 ABS 0 intentry dist/default/production\Comunica__o_46K22.X.production.obj
+__CFG_STVREN$ON 0 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+_RCONbits FD0 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+?___aldiv 11 0 COMRAM 1 cstackCOMRAM dist/default/production\Comunica__o_46K22.X.production.obj
+?___ftadd E7 0 BANK0 1 cstackBANK0 dist/default/production\Comunica__o_46K22.X.production.obj
+?___ftdiv 2B 0 COMRAM 1 cstackCOMRAM dist/default/production\Comunica__o_46K22.X.production.obj
+?___ftmul 1C 0 COMRAM 1 cstackCOMRAM dist/default/production\Comunica__o_46K22.X.production.obj
+?___fttol F0 0 BANK0 1 cstackBANK0 dist/default/production\Comunica__o_46K22.X.production.obj
+__Hreset_vec 4 0 CODE 0 reset_vec dist/default/production\Comunica__o_46K22.X.production.obj
+_ig_dente_14 C8 0 BANK0 1 bssBANK0 dist/default/production\Comunica__o_46K22.X.production.obj
+__HbssBANK0 0 0 ABS 0 bssBANK0 dist/default/production\Comunica__o_46K22.X.production.obj
+__HbssBANK1 0 0 ABS 0 bssBANK1 dist/default/production\Comunica__o_46K22.X.production.obj
+__Lramtop 1000 0 RAM 0 ramtop dist/default/production\Comunica__o_46K22.X.production.obj
+__Lrparam 0 0 COMRAM 1 rparam dist/default/production\Comunica__o_46K22.X.production.obj
+__pcinit C6A 0 CODE 0 cinit dist/default/production\Comunica__o_46K22.X.production.obj
+__ptext0 498 0 CODE 0 text0 dist/default/production\Comunica__o_46K22.X.production.obj
+__ptext1 D3A 0 CODE 0 text1 dist/default/production\Comunica__o_46K22.X.production.obj
+__ptext2 6E4 0 CODE 0 text2 dist/default/production\Comunica__o_46K22.X.production.obj
+__ptext3 828 0 CODE 0 text3 dist/default/production\Comunica__o_46K22.X.production.obj
+__ptext4 A0A 0 CODE 0 text4 dist/default/production\Comunica__o_46K22.X.production.obj
+__ptext5 248 0 CODE 0 text5 dist/default/production\Comunica__o_46K22.X.production.obj
+__ptext6 BBC 0 CODE 0 text6 dist/default/production\Comunica__o_46K22.X.production.obj
+__ptext7 E00 0 CODE 0 text7 dist/default/production\Comunica__o_46K22.X.production.obj
+__ptext8 DB2 0 CODE 0 text8 dist/default/production\Comunica__o_46K22.X.production.obj
+__ptext9 DC8 0 CODE 0 text9 dist/default/production\Comunica__o_46K22.X.production.obj
+__Lstruct 0 0 COMRAM 1 struct dist/default/production\Comunica__o_46K22.X.production.obj
+__Ltext10 0 0 ABS 0 text10 dist/default/production\Comunica__o_46K22.X.production.obj
+__Ltext11 0 0 ABS 0 text11 dist/default/production\Comunica__o_46K22.X.production.obj
+__Ltext12 0 0 ABS 0 text12 dist/default/production\Comunica__o_46K22.X.production.obj
+__Ltext13 0 0 ABS 0 text13 dist/default/production\Comunica__o_46K22.X.production.obj
+__Ltext14 0 0 ABS 0 text14 dist/default/production\Comunica__o_46K22.X.production.obj
+__Ltext15 0 0 ABS 0 text15 dist/default/production\Comunica__o_46K22.X.production.obj
+__Ltext16 0 0 ABS 0 text16 dist/default/production\Comunica__o_46K22.X.production.obj
+__Ltext17 0 0 ABS 0 text17 dist/default/production\Comunica__o_46K22.X.production.obj
+__Ltext18 0 0 ABS 0 text18 dist/default/production\Comunica__o_46K22.X.production.obj
+__Ltext20 0 0 ABS 0 text20 dist/default/production\Comunica__o_46K22.X.production.obj
+_spi_ctr D0 0 BANK0 1 bssBANK0 dist/default/production\Comunica__o_46K22.X.production.obj
+_percent A0 0 BANK0 1 bssBANK0 dist/default/production\Comunica__o_46K22.X.production.obj
+__ramtop 1000 0 RAM 0 ramtop C:\Users\willi\AppData\Local\Temp\s9es.obj
+___aldiv@dividend 11 0 COMRAM 1 cstackCOMRAM dist/default/production\Comunica__o_46K22.X.production.obj
+__Lpowerup 244 0 CODE 0 powerup dist/default/production\Comunica__o_46K22.X.production.obj
+__Leeprom_data 0 0 EEDATA 0 eeprom_data dist/default/production\Comunica__o_46K22.X.production.obj
+_ij_dente_14 C2 0 BANK0 1 bssBANK0 dist/default/production\Comunica__o_46K22.X.production.obj
+_T4CONbits F51 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+__size_ofi2_Set_Timer3 0 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+_teste_envio_william CE 0 BANK0 1 bssBANK0 dist/default/production\Comunica__o_46K22.X.production.obj
+_rotacao_4 88 0 BANK0 1 bssBANK0 dist/default/production\Comunica__o_46K22.X.production.obj
+__Lreset_vec 0 0 CODE 0 reset_vec dist/default/production\Comunica__o_46K22.X.production.obj
+___param_bank 0 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+__Hbigdata 0 0 BIGRAM 1 bigdata dist/default/production\Comunica__o_46K22.X.production.obj
+___ftmul@exp 25 0 COMRAM 1 cstackCOMRAM dist/default/production\Comunica__o_46K22.X.production.obj
+__end_of__initialization CB2 0 CODE 0 cinit dist/default/production\Comunica__o_46K22.X.production.obj
+_can_ctr D4 0 BANK0 1 bssBANK0 dist/default/production\Comunica__o_46K22.X.production.obj
+__size_of_I2C_Slave_Init 0 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+__size_of_No_Analogs 0 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+__CFG_WRT0$OFF 0 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+__CFG_WRT1$OFF 0 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+_pedal_ad CC 0 BANK0 1 bssBANK0 dist/default/production\Comunica__o_46K22.X.production.obj
+__CFG_PLLCFG$ON 0 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+__CFG_WRTB$OFF 0 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+__Libigdata 0 0 CODE 0 ibigdata dist/default/production\Comunica__o_46K22.X.production.obj
+__CFG_WRTC$OFF 0 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+__CFG_WRTD$OFF 0 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+__pidataBANK0 E14 0 CODE 0 idataBANK0 dist/default/production\Comunica__o_46K22.X.production.obj
+__Lclrtext 0 0 ABS 0 clrtext dist/default/production\Comunica__o_46K22.X.production.obj
+_SSP1CON1bits FC6 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+___ftpack@sign 15 0 COMRAM 1 cstackCOMRAM dist/default/production\Comunica__o_46K22.X.production.obj
+__end_ofi2_Set_Timer3 E14 0 CODE 0 text20 dist/default/production\Comunica__o_46K22.X.production.obj
+Putc_TX1@valor 11 0 COMRAM 1 cstackCOMRAM dist/default/production\Comunica__o_46K22.X.production.obj
+__pcstackCOMRAM 1 0 COMRAM 1 cstackCOMRAM dist/default/production\Comunica__o_46K22.X.production.obj
+___ftdiv@cntr 34 0 COMRAM 1 cstackCOMRAM dist/default/production\Comunica__o_46K22.X.production.obj
+___ftdiv@sign 39 0 COMRAM 1 cstackCOMRAM dist/default/production\Comunica__o_46K22.X.production.obj
+_T3CONbits FB1 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+_SSP1ADD FC8 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+_SSP1BUF FC9 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+_SSP2BUF F6F 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+_ConfigureHW CC0 0 CODE 0 text12 dist/default/production\Comunica__o_46K22.X.production.obj
+_index_read 3F 0 COMRAM 1 bssCOMRAM dist/default/production\Comunica__o_46K22.X.production.obj
+___aldiv@counter 19 0 COMRAM 1 cstackCOMRAM dist/default/production\Comunica__o_46K22.X.production.obj
+__end_of_main 6E4 0 CODE 0 text0 dist/default/production\Comunica__o_46K22.X.production.obj
+__pintcode 8 0 CODE 0 intcode dist/default/production\Comunica__o_46K22.X.production.obj
+_Count AE 0 BANK0 1 bssBANK0 dist/default/production\Comunica__o_46K22.X.production.obj
+_IgDnt 48 0 COMRAM 1 bssCOMRAM dist/default/production\Comunica__o_46K22.X.production.obj
+_IjDnt 44 0 COMRAM 1 bssCOMRAM dist/default/production\Comunica__o_46K22.X.production.obj
+_PORTB F81 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+_Pedal DE 0 BANK0 1 bssBANK0 dist/default/production\Comunica__o_46K22.X.production.obj
+_RC1IE 7CED 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+_RC1IF 7CF5 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+_RC2IE 7D1D 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+_RC2IF 7D25 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+?_Make16 11 0 COMRAM 1 cstackCOMRAM dist/default/production\Comunica__o_46K22.X.production.obj
+_TMR0H FD7 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+_TMR0L FD6 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+_TMR1H FCF 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+_TMR1L FCE 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+_TMR3H FB3 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+_TMR3L FB2 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+_TMR5H F50 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+_TMR5L F4F 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+_TRISE F96 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+_TRMT1 7D61 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+_TX1IE 7CEC 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+_TX2IE 7D1C 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+_TX2IF 7D24 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+__CFG_CP0$OFF 0 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+__CFG_CP1$OFF 0 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+__HRAM 0 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+__Hbss 0 0 RAM 1 bss dist/default/production\Comunica__o_46K22.X.production.obj
+__Hram 0 0 ABS 0 ram dist/default/production\Comunica__o_46K22.X.production.obj
+__Hsfr 0 0 ABS 0 sfr dist/default/production\Comunica__o_46K22.X.production.obj
+__LRAM 1 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+__Lbss 0 0 RAM 1 bss dist/default/production\Comunica__o_46K22.X.production.obj
+__Lram 0 0 ABS 0 ram dist/default/production\Comunica__o_46K22.X.production.obj
+__Lsfr 0 0 ABS 0 sfr dist/default/production\Comunica__o_46K22.X.production.obj
+_index 40 0 COMRAM 1 bssCOMRAM dist/default/production\Comunica__o_46K22.X.production.obj
+_limpa D6 0 BANK0 1 bssBANK0 dist/default/production\Comunica__o_46K22.X.production.obj
+__CFG_CPB$OFF 0 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+__CFG_CPD$OFF 0 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+_tempo 96 0 BANK0 1 bssBANK0 dist/default/production\Comunica__o_46K22.X.production.obj
+_valor 13A 0 BANK1 1 bssBANK1 dist/default/production\Comunica__o_46K22.X.production.obj
+_VarTest 9C 0 BANK0 1 bssBANK0 dist/default/production\Comunica__o_46K22.X.production.obj
+___fttol@sign1 148 0 BANK1 1 cstackBANK1 dist/default/production\Comunica__o_46K22.X.production.obj
+__size_of_isr 0 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+__HdataBANK0 0 0 ABS 0 dataBANK0 dist/default/production\Comunica__o_46K22.X.production.obj
+__LbitbssCOMRAM 0 0 ABS 0 bitbssCOMRAM dist/default/production\Comunica__o_46K22.X.production.obj
+_cont_SCC B4 0 BANK0 1 bssBANK0 dist/default/production\Comunica__o_46K22.X.production.obj
+_buffer_ger 90 0 BANK0 1 bssBANK0 dist/default/production\Comunica__o_46K22.X.production.obj
+__initialization C6A 0 CODE 0 cinit dist/default/production\Comunica__o_46K22.X.production.obj
+_BAUDCON1bits FB8 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+_BAUDCON2bits F70 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+__pbssBANK0 60 0 BANK0 1 bssBANK0 dist/default/production\Comunica__o_46K22.X.production.obj
+__pbssBANK1 100 0 BANK1 1 bssBANK1 dist/default/production\Comunica__o_46K22.X.production.obj
+_TempMotor AC 0 BANK0 1 bssBANK0 dist/default/production\Comunica__o_46K22.X.production.obj
+_T2CONbits FBA 0 ABS 0 - dist/default/production\Comunica__o_46K22.X.production.obj
+_final_i2c_gerenciamento 268 -21B COMRAM 1 bitbssCOMRAM dist/default/production\Comunica__o_46K22.X.production.obj
+__Hfardata 0 0 FARRAM 0 fardata dist/default/production\Comunica__o_46K22.X.production.obj
+__Hsmallconst 0 0 SMALLCONST 0 smallconst dist/default/production\Comunica__o_46K22.X.production.obj
+__Lifardata 0 0 CODE 0 ifardata dist/default/production\Comunica__o_46K22.X.production.obj
+__Hintsave_regs 0 0 BIGRAM 1 intsave_regs dist/default/production\Comunica__o_46K22.X.production.obj
+__Hintcode 244 0 CODE 0 intcode dist/default/production\Comunica__o_46K22.X.production.obj
+___ftmul@f3_as_product 26 0 COMRAM 1 cstackCOMRAM dist/default/production\Comunica__o_46K22.X.production.obj
+# %SPLITSTAB Section
+# This section enumerates all the psect splits performed by the assembler.
+# The beginning of the section is indicated by %SPLITSTAB.
+# Each line is a record a particular split, where the parent psect is on
+# the left and the child on the right.  Note that a child psect is always
+# split form the top of the parent psect. All splits from a given parent
+# are listed in the order in which they occurred.
+%SPLITSTAB
+# %DABS Section
+# This section contains a table of all usuage of the assember
+# directive DABS in the program. Each line has the following format:
+#   <name> <space> <address> <size>
+# If the DABS was originally labelled then that shall be <name>,
+# otherwise name will be "-".  The <space> number is in decimal.
+# <address> and <size> are in byte units as unqaulified hexadecimal
+%DABS
+# %SEGMENTS Section
+# This sections enumerates the segments of the program.  Each segment
+# is described on a single line as follows:
+#    <name> <space> <link address> <file address> <size> <delta>
+# Addresses and size are in unqualified hexadecimal.  The link address
+# and size are in units of delta. The file address is in units of bytes.
+# All other numeric quantities are in decimal.
+%SEGMENTS
+idloc 0 200000 200000 8 1
+cstackCOMRAM 1 1 1 4F 1
+reset_vec 0 0 0 4 1
+bssBANK0 1 60 60 9D 1
+bssBANK1 1 100 100 4E 1
+intcode 0 8 8 E10 1
+config 0 300000 300000 E 1
